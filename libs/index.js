@@ -1,15 +1,19 @@
 require(['scripts/config.js'], function () { //加载配置文件
-    require(["jquery", "fruit" ,"recommend","searchhot","needsBuy","tabs"/* ,"supperBanner","pop","goodslist","shopping" */ ], function ($, fruitL ,recom,search,needs,otab/* ,supperBanner,pop,goodslist,shop */ ) {
-        /* $(".content").supperBanner({
+    require(["jquery", "fruit" ,"recommend","searchhot","needsBuy"/* ,"tabs" */,"navtab","supperBanner","timeMeter","countdown"/* ,"pop","goodslist","shopping" */ ], 
+    function ($, fruitL ,recom,search,needs/* ,otab */,navbtn,supperBanner,times,counts/* ,supperBanner,pop,goodslist,shop */ ) {
+         $(".lside").supperBanner({
             src:[
                 "http://img.zcool.cn/community/013d825a56bdbea80120121fb8fed4.jpg@1380w",
                 "http://img.zcool.cn/community/017ac55a55de01a80120121f0d0e19.jpg@1380w",
                 "http://img.zcool.cn/community/01e91f5a56e35aa80120121fbbd853.jpg@1380w",
                 "http://img.zcool.cn/community/01c4165a56e341a8012113c7c68c2e.jpg@1380w"
             ],
-			autoplay:true
+            autoplay:true,
+            create_btn:true,
+			movement_mode:"scroll",
+			// /autoplay:false
         });
-        $('.login').on("click",function(){
+        /*$('.login').on("click",function(){
             pop.init(`
                 <div><p>dasdfadsfasfdasfda</p><div>
             `);
@@ -27,6 +31,15 @@ require(['scripts/config.js'], function () { //加载配置文件
         new recom().init($("#recommendList"),"http://www.sfbest.com/ajaxIndex/GetGuessYouLikeProducts/?callback=?");
         search.init($("#searchHot"),"http://www.sfbest.com/ajax/getWordAll/?callback=?");
         needs.init($("#bbig"));
-        otab.init("#booksort>li","#booksortr li");
+        //new otab().init("#booksort>li","#booksortr li");
+        //new otab().init("#booksort>li","#booksortr>li");
+        $(".fr").nav();
+        $("#booksort").nav()
+        times.init($("#timeLimit"));
+        counts.init([02,59,52],["time1","time2","time3"]);
+        $.getJSON("http://www.sfbest.com/ajax/GetHotSun/?callback=?",function(res){
+           // console.log(res.data);
+            $("#share").html(res.data);
+        })
     })
 })

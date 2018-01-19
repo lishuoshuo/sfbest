@@ -7,12 +7,12 @@ define(["jquery"],function($){
         init:function(btn,show){
             this.oBtn = document.querySelectorAll(btn);
             this.oShow = document.querySelectorAll(show);
-            console.log(this.oBtn)
-            console.log(this.oShow)
+            // console.log(this.oBtn)
+            // console.log(this.oShow)
             for(var i=0;i<this.oBtn.length;i++){
                 this.oBtn[i].index = i;
                 this.oBtn[i].onmouseenter = this.Entershow.bind(this);
-                //this.oBtn[i].onmouseout=this.LeaveOut.bind(this);
+                //console.log(this.oBtn[i].onmouseout=this.LeaveOut.bind(this))
             }
         },
         Entershow:function(event){
@@ -26,5 +26,5 @@ define(["jquery"],function($){
         }
     }
     
-    return new Tab();
+    return Tab;
 })

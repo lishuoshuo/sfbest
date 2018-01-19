@@ -13,13 +13,13 @@ gulp.task("html",()=>{
 gulp.task("script",()=>{
 	return gulp
 				//.src(["src/*.js","model/*.js","libs/*.js","!src/secret.js"])
-				.src(["libs/*.js"])
+				.src(["libs/*.js","libs/*.json"])
 				.pipe(gulp.dest("dist/scripts"))
 })
 gulp.task("watch",()=>{
     gulp.watch(["scss/*.scss","*.html"],["sass","html"]);
     gulp.watch(["images/*","!node_modules/**/*"],["images"]);
-	gulp.watch(["*/*.js","!module/**/*","!es6/*"],["script"]);
+	gulp.watch(["*/*.js","*/*.json","!module/**/*","!es6/*"],["script"]);
 	gulp.watch(["es6/*.js","!module/**/*"],["es6"]);
 })
 gulp.task('server',function(){

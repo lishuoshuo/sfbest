@@ -49,7 +49,11 @@ body {
                         padding: 0 10px;
                         color: $color5;
                         position: relative;
-                        line-height: 33px; //@include margin(6px 0 0 0);
+                        line-height: 33px;
+                        >ul {
+                            display: none;
+                            z-index: 100;
+                        }
                         >a {
                             color: $color3;
                         }
@@ -75,7 +79,7 @@ body {
                                 -webkit-transform: rotate(180deg);
                             }
                             &:hover>ul {
-                                box-shadow: 0 0 5px #dadada;
+                                box-shadow: 0 0 5px $co40;
                             }
                             >ul {
                                 position: absolute;
@@ -87,12 +91,14 @@ body {
                                 >li {
                                     line-height: 22px;
                                     background: $color10;
+                                    >a {
+                                        color: $color3;
+                                    }
                                 }
                             }
                         }
                         &.phones {
                             padding: 0 10px 0 28px;
-                            background: green;
                             >b {
                                 background: url(../images/header.png) no-repeat -73px -122px;
                                 width: 10px;
@@ -103,35 +109,44 @@ body {
                                 position: absolute;
                                 top: 9px;
                             }
-                            &:hover b{
+                            &:hover b {
                                 background: url(../images/header.png) no-repeat -73px -138px;
                             }
-                            >ul{
+                            >h3 {
+                                position: absolute;
+                                top: 24px;
+                                left: 50px;
+                                z-index: 2;
+                            }
+                            &:hover h3 {
+                                border-bottom: 10px solid $color10;
+                                border-left: 10px dashed $color1;
+                                border-right: 10px dashed $color1;
+                            }
+                            >ul {
+                                cursor: pointer;
                                 position: absolute;
                                 top: 33px;
                                 width: 230px;
                                 left: -50px;
                                 height: 153px;
                                 padding: 15px 0 0 0;
-                                background: yellowgreen;
-                                border: 1px solid #dadada;
-                                background-color: white;
-                                z-index: 1000;
-                                >.phones_one{
+                                border: 1px solid $color4;
+                                background: $color10;
+                                >.phones_one {
                                     width: 215px;
                                     height: 74px;
                                     margin-bottom: 10px;
                                     margin-left: 15px;
                                     position: relative;
-                                    background: blue;
-                                    >span{
+                                    >span {
                                         width: 73px;
                                         height: 74px;
                                         overflow: hidden;
                                         background: url(../images/header.png) no-repeat 0 -93px;
                                         display: block;
                                     }
-                                    >i{
+                                    >i {
                                         position: absolute;
                                         width: 50px;
                                         height: 29px;
@@ -140,13 +155,60 @@ body {
                                         background: url(../images/header.png) no-repeat -73px -93px;
                                         display: block;
                                     }
-                                    >p{
+                                    >p {
                                         position: absolute;
                                         left: 95px;
                                         top: 34px;
+                                        >em {
+                                            display: block;
+                                            line-height: 20px;
+                                        }
+                                        >strong {
+                                            display: block;
+                                            color: $co13;
+                                            line-height: 20px;
+                                            font-weight: bold;
+                                        }
+                                    }
+                                }
+                                >.phones_two {
+                                    font-size: 0;
+                                    height: 29px;
+                                    width: 215px;
+                                    margin: 0 0 10px 15px;
+                                    @extend %legacy-pie-clearfix;
+                                    >.apple {
+                                        @extend %float-left;
+                                        display: block;
+                                        width: 96px;
+                                        height: 29px;
+                                        background: url(../images/header.png) no-repeat 0 -167px;
+                                        margin-right: 5px;
+                                    }
+                                    >.android {
+                                        @extend %float-left;
+                                        display: block;
+                                        width: 96px;
+                                        height: 29px;
+                                        background: url(../images/header.png) no-repeat 0 -196px;
+                                    }
+                                }
+                                >.phones_three {
+                                    height: 30px;
+                                    background: url(../images/indexImg20130307.png) no-repeat -182px -210px #fcfbe4;
+                                    text-align: center;
+                                    color: $co21;
+                                    font-size: 14px;
+                                    font-weight: bold;
+                                    line-height: 30px;
+                                    >a {
+                                        color: $co21;
                                     }
                                 }
                             }
+                        }
+                        &.menus {
+                            width: 60px;
                         }
                         &.tShow {
                             height: 33px;
@@ -164,6 +226,87 @@ body {
                                     }
                                     &.bo {
                                         background: url(../images/header.png) no-repeat -74px 0;
+                                    }
+                                }
+                            }
+                        }
+                        &.allCat {
+                            padding: 0 15px;
+                            cursor: default;
+                            >b {
+                                position: absolute;
+                                right: 5px;
+                                top: 15px;
+                                background: url(../images/header.png) no-repeat -86px -130px;
+                                width: 8px;
+                                height: 4px;
+                                transition: transform .2s ease-in 0s;
+                                -webkit-transition: -webkit-transform .2s ease-in 0s;
+                                overflow: hidden;
+                            }
+                            &:hover {
+                                box-shadow: 0 0 5px $co40;
+                                b {
+                                    transform: rotate(180deg);
+                                    -webkit-transform: rotate(180deg);
+                                }
+                            }
+                            >ul {
+                                position: absolute;
+                                top: 33px;
+                                width: 815px;
+                                right: 0;
+                                height: 154px;
+                                left: auto;
+                                padding-top: 10px;
+                                -moz-box-shadow: 0 0 5px $co40;
+                                -webkit-box-shadow: 0 0 5px $co40;
+                                box-shadow: 0 0 5px $co40;
+                                background: $color10;
+                                @extend %legacy-pie-clearfix;
+                                >li {
+                                    @extend %float-left;
+                                    width: 200px;
+                                    padding: 15px 19px 0 20px;
+                                    text-align: left;
+                                    margin-bottom: 10px;
+                                    &.borderLi {
+                                        background: url(../images/line.jpg) center repeat-y;
+                                        height: 90px;
+                                        width: 5px;
+                                        margin: 20px 0 0 0;
+                                        padding: 15px 19px 0 20px;
+                                    }
+                                    >h3 {
+                                        @include YaHei16;
+                                        margin-bottom: 5px;
+                                        &.li1 {
+                                            color: $color6;
+                                        }
+                                        &.li2 {
+                                            color: $co21;
+                                        }
+                                        &.li3 {
+                                            color: $co37;
+                                        }
+                                    }
+                                    >p {
+                                        line-height: 20px;
+                                        height: 100px;
+                                        overflow: hidden;
+                                        >a {
+                                            display: block;
+                                            width: 65px;
+                                            @extend %float-left;
+                                            line-height: 30px;
+                                            color: #666666;
+                                        }
+                                        >i {
+                                            @extend %float-left;
+                                            width: 100%;
+                                            display: block;
+                                            line-height: 20px;
+                                        }
                                     }
                                 }
                             }
@@ -353,8 +496,52 @@ body {
                             width: 188px;
                             height: 472px;
                             background-color: $co13;
+                            position: relative;
                             >.item {
                                 height: 58px;
+                                &:hover {
+                                    background: $color10;
+                                    >.i-master {
+                                        h3 {
+                                            >a {
+                                                color: $co13;
+                                            }
+                                            >p {
+                                                &.fresh {
+                                                    background: url(../images/left_lm_m.png) no-repeat 0 5px;
+                                                }
+                                                &.pastry {
+                                                    background: url(../images/left_lm_m.png) no-repeat 0 -159px;
+                                                }
+                                                &.baby {
+                                                    background: url(../images/left_lm_m.png) no-repeat 0 -324px;
+                                                }
+                                                &.drinks {
+                                                    background: url(../images/left_lm_m.png) no-repeat 0 -47px;
+                                                }
+                                                &.food {
+                                                    background: url(../images/left_lm_m.png) no-repeat 0 -106px;
+                                                }
+                                                &.oil {
+                                                    background: url(../images/left_lm_m.png) no-repeat 0 -270px;
+                                                }
+                                                &.tea {
+                                                    background: url(../images/left_lm_m.png) no-repeat 0 -213px;
+                                                }
+                                                &.health {
+                                                    background: url(../images/left_lm_m.png) no-repeat 0 -378px;
+                                                }
+                                            }
+                                        }
+                                        >.subCat {
+                                            >li {
+                                                >a {
+                                                    color: $co13;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
                                 >.i-master {
                                     display: block;
                                     height: 54px;
@@ -415,122 +602,67 @@ body {
                                             }
                                         }
                                     }
-                                    &:hover {
-                                        background: $color10;
-                                        >h3 {
-                                            >a {
-                                                color: $co13;
-                                            }
-                                            >p {
-                                                &.fresh {
-                                                    background: url(../images/left_lm_m.png) no-repeat 0 5px;
-                                                }
-                                                &.pastry {
-                                                    background: url(../images/left_lm_m.png) no-repeat 0 -159px;
-                                                }
-                                                &.baby {
-                                                    background: url(../images/left_lm_m.png) no-repeat 0 -324px;
-                                                }
-                                                &.drinks {
-                                                    background: url(../images/left_lm_m.png) no-repeat 0 -47px;
-                                                }
-                                                &.food {
-                                                    background: url(../images/left_lm_m.png) no-repeat 0 -106px;
-                                                }
-                                                &.oil {
-                                                    background: url(../images/left_lm_m.png) no-repeat 0 -270px;
-                                                }
-                                                &.tea {
-                                                    background: url(../images/left_lm_m.png) no-repeat 0 -213px;
-                                                }
-                                                &.health {
-                                                    background: url(../images/left_lm_m.png) no-repeat 0 -378px;
-                                                }
-                                            }
-                                        }
-                                        >.subCat {
-                                            >li {
-                                                >a {
-                                                    color: $co13;
-                                                }
-                                            }
-                                        }
-                                    }
                                 }
-                            }
-                        }
-                        >#booksortr {
-                            @extend %float-left;
-                            width: 560px;
-                            height: 480px;
-                            position: relative;
-                            >li {
-                                height: $height;
-                                width: $width;
-                                position: absolute;
-                                display: none;
-                                background: $color10;
-                                >.bookl {
-                                    height: 248px;
-                                    width: 542px;
-                                    padding: 8px 10px 24px;
-                                    >dl {
-                                        line-height: 26px;
-                                        @extend %legacy-pie-clearfix;
-                                        >dt {
-                                            @extend %float-left;
-                                            width: 80px;
-                                            padding-right: 10px;
-                                            font-weight: bold;
-                                            text-align: right;
-                                            height: 18px;
-                                            line-height: 18px;
-                                            margin: 4px 0px;
-                                            color: $co13;
-                                        }
-                                        >dd {
-                                            //@extend %float-left;
+                                >.item_right {
+                                    position: absolute;
+                                    left: 200px;
+                                    width: 560px;
+                                    height: 480px;
+                                    top: 0px;
+                                    background: $color10;
+                                    display: none;
+                                    >.bookl {
+                                        height: 248px;
+                                        width: 542px;
+                                        padding: 8px 10px 24px;
+                                        >dl {
+                                            line-height: 26px;
                                             @extend %legacy-pie-clearfix;
-                                            overflow: hidden;
-                                            >a {
-                                                float: left;
-                                                display: block;
-                                                font-size: 12px;
+                                            >dt {
+                                                @extend %float-left;
+                                                width: 80px;
+                                                padding-right: 10px;
+                                                font-weight: bold;
+                                                text-align: right;
                                                 height: 18px;
                                                 line-height: 18px;
                                                 margin: 4px 0px;
-                                                text-align: left;
-                                                padding: 0px 6px;
-                                                border-left: 1px solid #ccc;
-                                                color: #666;
-                                                cursor: pointer;
-                                                &:hover {
-                                                    color: $co13;
+                                                color: $co13;
+                                            }
+                                            >dd {
+                                                //@extend %float-left;
+                                                @extend %legacy-pie-clearfix;
+                                                overflow: hidden;
+                                                >a {
+                                                    float: left;
+                                                    display: block;
+                                                    font-size: 12px;
+                                                    height: 18px;
+                                                    line-height: 18px;
+                                                    margin: 4px 0px;
+                                                    text-align: left;
+                                                    padding: 0px 6px;
+                                                    border-left: 1px solid #ccc;
+                                                    color: #666;
+                                                    cursor: pointer;
+                                                    &:hover {
+                                                        color: $co13;
+                                                    }
                                                 }
                                             }
                                         }
                                     }
-                                }
-                                >.boor {
-                                    width: 542px;
-                                    height: 200px;
-                                    >a {
-                                        display: block;
-                                        >img {
-                                            height: $height;
-                                            width: $width;
+                                    >.boor {
+                                        width: 542px;
+                                        height: 200px;
+                                        >a {
+                                            display: block;
+                                            >img {
+                                                height: $height;
+                                                width: $width;
+                                            }
                                         }
                                     }
-                                }
-                                >span {
-                                    width: 25px;
-                                    height: 25px;
-                                    display: block;
-                                    position: absolute;
-                                    top: 6px;
-                                    right: 6px;
-                                    background: url(../images/index_icon_new.png) no-repeat -245px -1px;
-                                    cursor: pointer;
                                 }
                             }
                         }
@@ -589,11 +721,11 @@ body {
                 height: 480px;
                 position: relative;
                 >.rSide {
-                    position: absolute;
-                    right: 0;
-                    top: 0;
                     width: 260px;
-                    height: $height;
+                    position: absolute;
+                    top: 0;
+                    margin-left: 940px;
+                    z-index: 999;
                     >a {
                         display: block;
                         width: 260px;
@@ -615,6 +747,15 @@ body {
                             width: 100%;
                         }
                     }
+                }
+                >.lside {
+                    height: 480px;
+                    width: 1000px;
+                    position: relative;
+                    overflow: hidden;
+                    z-index: 30;
+                    margin-left: 200px;
+                    background: yellowgreen;
                 }
             }
         }
@@ -827,7 +968,7 @@ body {
                                 }
                             }
                             >ul.time {
-                                width: 360px;
+                                width: 200px;
                                 height: 40px;
                                 margin-top: -4px;
                                 @extend %float-left;
@@ -1381,7 +1522,7 @@ body {
             @at-root {
                 .zhiwei {
                     @extend %float-left;
-                    width: 400px;
+                    width: 600px;
                     height: 200px;
                     border-bottom: 1px solid $co36;
                     margin: 0 20px 0 10px;
@@ -1389,7 +1530,7 @@ body {
                     >h3 {
                         padding: 15px 0 9px 15px;
                         background: url(../images/zhiwei_bg.jpg) no-repeat center left;
-                        width: 385px;
+                        width: 585px;
                         height: 26px;
                         @include YaHei14;
                         color: $co18;
@@ -1402,6 +1543,7 @@ body {
                             height: 110px;
                             width: 170px;
                             @extend %float-left;
+                            margin-left: 14px;
                             >a {
                                 display: block;
                                 height: 110px;
@@ -1428,7 +1570,7 @@ body {
                     }
                 }
                 .share {
-                    @extend %float-left;
+                    @extend %float-right;
                     width: 420px;
                     height: 200px;
                     border-bottom: 1px solid $co36;
@@ -1443,101 +1585,117 @@ body {
                         color: $co18;
                         border-bottom: 1px solid $co17;
                     }
-                    >ul {
+                    >.shares {
                         margin: 20px 0 0 0;
                         position: relative;
                         height: 122px;
                         overflow: hidden;
-                        >li {
-                            height: 58px;
-                            overflow: hidden;
-                            border-bottom: 1px dotted $co17;
-                            margin-bottom: 6px;
-                            vertical-align: middle;
-                            >.share_c {
-                                height: 50px;
+                        >ul {
+                            position: absolute;
+                            left: 0px;
+                            top: 0;
+                            >li {
+                                height: 58px;
                                 overflow: hidden;
-                                >.l {
-                                    @extend %float-left;
-                                }
-                                >.r {
-                                    @extend %float-right;
-                                    width: 370px;
+                                border-bottom: 1px dotted $co17;
+                                margin-bottom: 6px;
+                                vertical-align: middle;
+                                >.share_c {
+                                    height: 50px;
                                     overflow: hidden;
-                                    >p {
-                                        padding-left: 20px;
-                                        overflow: hidden;
-                                        height: 22px;
-                                        line-height: 22px;
+                                    @extend %legacy-pie-clearfix;
+                                    >.l {
+                                        height: 50px;
+                                        width: 50px;
+                                        @extend %float-left;
                                         >a {
-                                            color: $color9;
+                                            display: block;
+                                            height: 50px;
+                                            >img {
+                                                height: $height;
+                                                width: $width;
+                                            }
                                         }
                                     }
-                                    >.s_title {
-                                        white-space: nowrap;
-                                        text-overflow: ellipsis;
-                                        padding-left: 20px;
+                                    >.r {
+                                        @extend %float-right;
+                                        width: 370px;
                                         overflow: hidden;
-                                        height: 22px;
-                                        line-height: 22px;
-                                        >a {
-                                            color: $co37;
+                                        height: 50px;
+                                        >p {
+                                            padding-left: 20px;
+                                            overflow: hidden;
+                                            height: 22px;
+                                            line-height: 22px;
+                                            >a {
+                                                color: $color9;
+                                            }
+                                        }
+                                        >.s_title {
+                                            white-space: nowrap;
+                                            text-overflow: ellipsis;
+                                            padding-left: 20px;
+                                            overflow: hidden;
+                                            height: 22px;
+                                            line-height: 22px;
+                                            >a {
+                                                color: $co37;
+                                            }
                                         }
                                     }
                                 }
                             }
                         }
                     }
-                }
-                .youpin {
-                    @extend %float-right;
-                    border: 1px solid $co17;
-                    height: 199px;
-                    width: 328px;
-                    >.ucaption {
-                        @include YaHei14;
-                        margin: 0 auto;
-                        width: 300px;
-                        height: 26px;
-                        padding: 14px 0 9px 0;
-                        border-bottom: 1px solid $co17;
-                        >p {
-                            background: url(../images/youpin.jpg) no-repeat center left;
-                            padding: 0 0 0 24px;
-                            @extend %float-left;
-                            color: $co18;
-                        }
-                        >h2 {
-                            @extend %float-right;
-                            display: block;
-                            >a {
-                                width: 60px;
-                                height: 29px;
-                                display: block;
-                                cursor: pointer;
-                                background: url(../images/foot_bottom.png) no-repeat -3px -97px;
-                            }
-                        }
-                    }
-                    >ul {
-                        margin-top: 20px;
-                        @extend %legacy-pie-clearfix;
-                        >li {
-                            height: 110px;
-                            width: 160px;
-                            margin-left: 3px;
-                            @extend %float-left;
-                            >a {
-                                display: block;
-                                height: 110px;
-                                >img {
-                                    height: $height;
-                                    width: $width;
-                                }
-                            }
-                        }
-                    }
-                }
+                } // .youpin {
+                //     @extend %float-right;
+                //     border: 1px solid $co17;
+                //     height: 199px;
+                //     width: 328px;
+                //     >.ucaption {
+                //         @include YaHei14;
+                //         margin: 0 auto;
+                //         width: 300px;
+                //         height: 26px;
+                //         padding: 14px 0 9px 0;
+                //         border-bottom: 1px solid $co17;
+                //         >p {
+                //             background: url(../images/youpin.jpg) no-repeat center left;
+                //             padding: 0 0 0 24px;
+                //             @extend %float-left;
+                //             color: $co18;
+                //         }
+                //         >h2 {
+                //             @extend %float-right;
+                //             display: block;
+                //             >a {
+                //                 width: 60px;
+                //                 height: 29px;
+                //                 display: block;
+                //                 cursor: pointer;
+                //                 background: url(../images/foot_bottom.png) no-repeat -3px -97px;
+                //             }
+                //         }
+                //     }
+                //     >ul {
+                //         margin-top: 20px;
+                //         @extend %legacy-pie-clearfix;
+                //         >li {
+                //             height: 110px;
+                //             width: 160px;
+                //             margin-left: 3px;
+                //             @extend %float-left;
+                //             >a {
+                //                 display: block;
+                //                 height: 110px;
+                //                 >img {
+                //                     height: $height;
+                //                     width: $width;
+                //                 }
+                //             }
+                //         }
+                //     }
+                // }
             }
         }
     }
@@ -1687,6 +1845,12 @@ body {
                     &.bottom_kx {
                         height: 33px;
                         width: 94px;
+                        &:hover {
+                            -webkit-transform: scale(1.3);
+                            -moz-transform: scale(1.3);
+                            -o-transform: scale(1.3);
+                            -webkit-transform-origin: center center;
+                        }
                         >a {
                             display: block;
                             height: 33px;
@@ -1729,5 +1893,34 @@ body {
                 }
             }
         }
+    }
+    @at-root {
+        .scrollTop{
+            width: 44px;
+            height: 300px;
+            position: fixed;
+            bottom: 20px;
+            z-index: 1000;
+            right: 10px;
+            left: auto;
+            margin-left: 0;
+            >.side-c{
+                height: 44px;
+                width: 44px;
+                margin-top: 6px;
+                position: relative;
+                background: green;
+                >a{
+                    height: 44px;
+                    width: 44px;
+                    display: block;
+                    color: $color0;
+                    &.side_v{
+                        background: url(../images/paid_bg.png) no-repeat -41px -182px;
+                    }
+                    
+                }
+            }
+        }     
     }
 }

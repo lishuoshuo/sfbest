@@ -41,9 +41,9 @@ h6 {
 table {
   border-collapse: collapse; }
 
-.topMenu > .pW > .fl, .header, .header > .logo > a > .logoOne, .mainNav > .navmenu, .mainNav > .navmenu > .categories > .dd, .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master > ul, .mainNav > .navmenu > .categories > .dd > #booksortr > li > .bookl > dl, .mainNav > .navmenu > .categories > .dd > #booksortr > li > .bookl > dl > dd, .mainNav > .navmenu > .menu1 > ul, .indexW, .bestbuy, .bestbuy > .b_left > ul.bbig, .bestbuy > .rSide1 > .sfNews > .rTitle, .mt2, .mt2 > .timeLimit_l > .timeLimit_top, .mt2 > .timeLimit_l > .timeLimit_top > ul.time, .mt2 > .timeLimit_l > .timeLimit_bot > ul, .category > h3, .subCont > ul, .redge > ul, .indexW.promote > ul, .zhiwei > ul, .youpin > ul, .footer > .footer_zd > ul, .foot > .pageFooter, .foot > .pageFooter > .right, .foot > .pageFooter > .left, .foot > .bottom {
+.topMenu > .pW > .fl, .topMenu > .pW > .fr > li.phones > ul > .phones_two, .topMenu > .pW > .fr > li.allCat > ul, .header, .header > .logo > a > .logoOne, .mainNav > .navmenu, .mainNav > .navmenu > .categories > .dd, .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master > ul, .mainNav > .navmenu > .categories > .dd > #booksort > .item > .item_right > .bookl > dl, .mainNav > .navmenu > .categories > .dd > #booksort > .item > .item_right > .bookl > dl > dd, .mainNav > .navmenu > .menu1 > ul, .indexW, .bestbuy, .bestbuy > .b_left > ul.bbig, .bestbuy > .rSide1 > .sfNews > .rTitle, .mt2, .mt2 > .timeLimit_l > .timeLimit_top, .mt2 > .timeLimit_l > .timeLimit_top > ul.time, .mt2 > .timeLimit_l > .timeLimit_bot > ul, .category > h3, .subCont > ul, .redge > ul, .indexW.promote > ul, .zhiwei > ul, .share > .shares > ul > li > .share_c, .footer > .footer_zd > ul, .foot > .pageFooter, .foot > .pageFooter > .right, .foot > .pageFooter > .left, .foot > .bottom {
   *zoom: 1; }
-  .topMenu > .pW > .fl:after, .header:after, .header > .logo > a > .logoOne:after, .mainNav > .navmenu:after, .mainNav > .navmenu > .categories > .dd:after, .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master > ul:after, .mainNav > .navmenu > .categories > .dd > #booksortr > li > .bookl > dl:after, .mainNav > .navmenu > .categories > .dd > #booksortr > li > .bookl > dl > dd:after, .mainNav > .navmenu > .menu1 > ul:after, .indexW:after, .bestbuy:after, .bestbuy > .b_left > ul.bbig:after, .bestbuy > .rSide1 > .sfNews > .rTitle:after, .mt2:after, .mt2 > .timeLimit_l > .timeLimit_top:after, .mt2 > .timeLimit_l > .timeLimit_top > ul.time:after, .mt2 > .timeLimit_l > .timeLimit_bot > ul:after, .category > h3:after, .subCont > ul:after, .redge > ul:after, .indexW.promote > ul:after, .zhiwei > ul:after, .youpin > ul:after, .footer > .footer_zd > ul:after, .foot > .pageFooter:after, .foot > .pageFooter > .right:after, .foot > .pageFooter > .left:after, .foot > .bottom:after {
+  .topMenu > .pW > .fl:after, .topMenu > .pW > .fr > li.phones > ul > .phones_two:after, .topMenu > .pW > .fr > li.allCat > ul:after, .header:after, .header > .logo > a > .logoOne:after, .mainNav > .navmenu:after, .mainNav > .navmenu > .categories > .dd:after, .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master > ul:after, .mainNav > .navmenu > .categories > .dd > #booksort > .item > .item_right > .bookl > dl:after, .mainNav > .navmenu > .categories > .dd > #booksort > .item > .item_right > .bookl > dl > dd:after, .mainNav > .navmenu > .menu1 > ul:after, .indexW:after, .bestbuy:after, .bestbuy > .b_left > ul.bbig:after, .bestbuy > .rSide1 > .sfNews > .rTitle:after, .mt2:after, .mt2 > .timeLimit_l > .timeLimit_top:after, .mt2 > .timeLimit_l > .timeLimit_top > ul.time:after, .mt2 > .timeLimit_l > .timeLimit_bot > ul:after, .category > h3:after, .subCont > ul:after, .redge > ul:after, .indexW.promote > ul:after, .zhiwei > ul:after, .share > .shares > ul > li > .share_c:after, .footer > .footer_zd > ul:after, .foot > .pageFooter:after, .foot > .pageFooter > .right:after, .foot > .pageFooter > .left:after, .foot > .bottom:after {
     content: "\0020";
     display: block;
     height: 0;
@@ -51,10 +51,10 @@ table {
     overflow: hidden;
     visibility: hidden; }
 
-.topMenu > .pW > .fl, .topMenu > .pW > .fl > li, .topMenu > .pW > .fr > li, .header > .logo, .header > .logo > a > .logoOne > p, .header > .playLogo, .header > .search, .header > .search > form > input, .mainNav > .navmenu > .categories, .mainNav > .navmenu > .categories > .dd > #booksort, .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master > ul > li, .mainNav > .navmenu > .categories > .dd > #booksortr, .mainNav > .navmenu > .categories > .dd > #booksortr > li > .bookl > dl > dt, .mainNav > .navmenu > .menu1, .mainNav > .navmenu > .menu1 > ul > li, .bestbuy > .b_left, .bestbuy > .b_left > ul.bbig > li, .bestbuy > .rSide1 > .sfNews > .rTitle > h2, .mt2 > .timeLimit_l, .mt2 > .timeLimit_l > .timeLimit_top > span, .mt2 > .timeLimit_l > .timeLimit_top > p, .mt2 > .timeLimit_l > .timeLimit_top > ul.time, .mt2 > .timeLimit_l > .timeLimit_top > ul.time > li, .mt2 > .timeLimit_l > .timeLimit_bot > ul > li, .category, .category > h3 > i, .subCont, .subCont > ul > li, .redge > ul > li, .indexW.promote > ul > li, .zhiwei, .zhiwei > ul > li, .share, .share > ul > li > .share_c > .l, .youpin > .ucaption > p, .youpin > ul > li, .footer > .footer_zd > ul > li, .foot > .pageFooter > .middle, .foot > .pageFooter > .right, .foot > .pageFooter > .right > ul, .foot > .pageFooter > .left, .foot > .pageFooter > .left > ul, .foot > .bottom > li {
+.topMenu > .pW > .fl, .topMenu > .pW > .fl > li, .topMenu > .pW > .fr > li, .topMenu > .pW > .fr > li.phones > ul > .phones_two > .apple, .topMenu > .pW > .fr > li.phones > ul > .phones_two > .android, .topMenu > .pW > .fr > li.allCat > ul > li, .topMenu > .pW > .fr > li.allCat > ul > li > p > a, .topMenu > .pW > .fr > li.allCat > ul > li > p > i, .header > .logo, .header > .logo > a > .logoOne > p, .header > .playLogo, .header > .search, .header > .search > form > input, .mainNav > .navmenu > .categories, .mainNav > .navmenu > .categories > .dd > #booksort, .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master > ul > li, .mainNav > .navmenu > .categories > .dd > #booksort > .item > .item_right > .bookl > dl > dt, .mainNav > .navmenu > .menu1, .mainNav > .navmenu > .menu1 > ul > li, .bestbuy > .b_left, .bestbuy > .b_left > ul.bbig > li, .bestbuy > .rSide1 > .sfNews > .rTitle > h2, .mt2 > .timeLimit_l, .mt2 > .timeLimit_l > .timeLimit_top > span, .mt2 > .timeLimit_l > .timeLimit_top > p, .mt2 > .timeLimit_l > .timeLimit_top > ul.time, .mt2 > .timeLimit_l > .timeLimit_top > ul.time > li, .mt2 > .timeLimit_l > .timeLimit_bot > ul > li, .category, .category > h3 > i, .subCont, .subCont > ul > li, .redge > ul > li, .indexW.promote > ul > li, .zhiwei, .zhiwei > ul > li, .share > .shares > ul > li > .share_c > .l, .footer > .footer_zd > ul > li, .foot > .pageFooter > .middle, .foot > .pageFooter > .right, .foot > .pageFooter > .right > ul, .foot > .pageFooter > .left, .foot > .pageFooter > .left > ul, .foot > .bottom > li {
   float: left; }
 
-.topMenu > .pW > .fr, .header > .shopingcar, .bestbuy > .rSide1, .bestbuy > .rSide1 > .sfNews > .rTitle > a, .mt2 > .timeLimit_l > .timeLimit_top > p.tright, .mt2 > .timeLimit_r, .share > ul > li > .share_c > .r, .youpin, .youpin > .ucaption > h2 {
+.topMenu > .pW > .fr, .header > .shopingcar, .bestbuy > .rSide1, .bestbuy > .rSide1 > .sfNews > .rTitle > a, .mt2 > .timeLimit_l > .timeLimit_top > p.tright, .mt2 > .timeLimit_r, .share, .share > .shares > ul > li > .share_c > .r {
   float: right; }
 
 .iconfont {
@@ -92,6 +92,9 @@ table {
       color: #999999;
       position: relative;
       line-height: 33px; }
+      .topMenu > .pW > .fr > li > ul {
+        display: none;
+        z-index: 100; }
       .topMenu > .pW > .fr > li > a {
         color: #969696; }
       .topMenu > .pW > .fr > li:hover > a {
@@ -124,9 +127,10 @@ table {
           .topMenu > .pW > .fr > li.frMy > ul > li {
             line-height: 22px;
             background: #ffffff; }
+            .topMenu > .pW > .fr > li.frMy > ul > li > a {
+              color: #969696; }
       .topMenu > .pW > .fr > li.phones {
-        padding: 0 10px 0 28px;
-        background: green; }
+        padding: 0 10px 0 28px; }
         .topMenu > .pW > .fr > li.phones > b {
           background: url(../images/header.png) no-repeat -73px -122px;
           width: 10px;
@@ -138,24 +142,31 @@ table {
           top: 9px; }
         .topMenu > .pW > .fr > li.phones:hover b {
           background: url(../images/header.png) no-repeat -73px -138px; }
+        .topMenu > .pW > .fr > li.phones > h3 {
+          position: absolute;
+          top: 24px;
+          left: 50px;
+          z-index: 2; }
+        .topMenu > .pW > .fr > li.phones:hover h3 {
+          border-bottom: 10px solid #ffffff;
+          border-left: 10px dashed #f7f7f7;
+          border-right: 10px dashed #f7f7f7; }
         .topMenu > .pW > .fr > li.phones > ul {
+          cursor: pointer;
           position: absolute;
           top: 33px;
           width: 230px;
           left: -50px;
           height: 153px;
           padding: 15px 0 0 0;
-          background: yellowgreen;
-          border: 1px solid #dadada;
-          background-color: white;
-          z-index: 1000; }
+          border: 1px solid #dcdcdc;
+          background: #ffffff; }
           .topMenu > .pW > .fr > li.phones > ul > .phones_one {
             width: 215px;
             height: 74px;
             margin-bottom: 10px;
             margin-left: 15px;
-            position: relative;
-            background: blue; }
+            position: relative; }
             .topMenu > .pW > .fr > li.phones > ul > .phones_one > span {
               width: 73px;
               height: 74px;
@@ -174,6 +185,42 @@ table {
               position: absolute;
               left: 95px;
               top: 34px; }
+              .topMenu > .pW > .fr > li.phones > ul > .phones_one > p > em {
+                display: block;
+                line-height: 20px; }
+              .topMenu > .pW > .fr > li.phones > ul > .phones_one > p > strong {
+                display: block;
+                color: #76ac25;
+                line-height: 20px;
+                font-weight: bold; }
+          .topMenu > .pW > .fr > li.phones > ul > .phones_two {
+            font-size: 0;
+            height: 29px;
+            width: 215px;
+            margin: 0 0 10px 15px; }
+            .topMenu > .pW > .fr > li.phones > ul > .phones_two > .apple {
+              display: block;
+              width: 96px;
+              height: 29px;
+              background: url(../images/header.png) no-repeat 0 -167px;
+              margin-right: 5px; }
+            .topMenu > .pW > .fr > li.phones > ul > .phones_two > .android {
+              display: block;
+              width: 96px;
+              height: 29px;
+              background: url(../images/header.png) no-repeat 0 -196px; }
+          .topMenu > .pW > .fr > li.phones > ul > .phones_three {
+            height: 30px;
+            background: url(../images/indexImg20130307.png) no-repeat -182px -210px #fcfbe4;
+            text-align: center;
+            color: #FA6400;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 30px; }
+            .topMenu > .pW > .fr > li.phones > ul > .phones_three > a {
+              color: #FA6400; }
+      .topMenu > .pW > .fr > li.menus {
+        width: 60px; }
       .topMenu > .pW > .fr > li.tShow {
         height: 33px;
         width: 30px;
@@ -189,6 +236,69 @@ table {
               background: url(../images/header.png) no-repeat -55px 0; }
             .topMenu > .pW > .fr > li.tShow > a > p.bo {
               background: url(../images/header.png) no-repeat -74px 0; }
+      .topMenu > .pW > .fr > li.allCat {
+        padding: 0 15px;
+        cursor: default; }
+        .topMenu > .pW > .fr > li.allCat > b {
+          position: absolute;
+          right: 5px;
+          top: 15px;
+          background: url(../images/header.png) no-repeat -86px -130px;
+          width: 8px;
+          height: 4px;
+          transition: transform .2s ease-in 0s;
+          -webkit-transition: -webkit-transform .2s ease-in 0s;
+          overflow: hidden; }
+        .topMenu > .pW > .fr > li.allCat:hover {
+          box-shadow: 0 0 5px #dadada; }
+          .topMenu > .pW > .fr > li.allCat:hover b {
+            transform: rotate(180deg);
+            -webkit-transform: rotate(180deg); }
+        .topMenu > .pW > .fr > li.allCat > ul {
+          position: absolute;
+          top: 33px;
+          width: 815px;
+          right: 0;
+          height: 154px;
+          left: auto;
+          padding-top: 10px;
+          -moz-box-shadow: 0 0 5px #dadada;
+          -webkit-box-shadow: 0 0 5px #dadada;
+          box-shadow: 0 0 5px #dadada;
+          background: #ffffff; }
+          .topMenu > .pW > .fr > li.allCat > ul > li {
+            width: 200px;
+            padding: 15px 19px 0 20px;
+            text-align: left;
+            margin-bottom: 10px; }
+            .topMenu > .pW > .fr > li.allCat > ul > li.borderLi {
+              background: url(../images/line.jpg) center repeat-y;
+              height: 90px;
+              width: 5px;
+              margin: 20px 0 0 0;
+              padding: 15px 19px 0 20px; }
+            .topMenu > .pW > .fr > li.allCat > ul > li > h3 {
+              font: bold 16px/22px "Microsoft YaHei";
+              margin-bottom: 5px; }
+              .topMenu > .pW > .fr > li.allCat > ul > li > h3.li1 {
+                color: #669900; }
+              .topMenu > .pW > .fr > li.allCat > ul > li > h3.li2 {
+                color: #FA6400; }
+              .topMenu > .pW > .fr > li.allCat > ul > li > h3.li3 {
+                color: #646464; }
+            .topMenu > .pW > .fr > li.allCat > ul > li > p {
+              line-height: 20px;
+              height: 100px;
+              overflow: hidden; }
+              .topMenu > .pW > .fr > li.allCat > ul > li > p > a {
+                display: block;
+                width: 65px;
+                line-height: 30px;
+                color: #666666; }
+              .topMenu > .pW > .fr > li.allCat > ul > li > p > i {
+                width: 100%;
+                display: block;
+                line-height: 20px; }
 
 .header {
   height: 104px;
@@ -332,9 +442,32 @@ table {
           padding-left: 12px;
           width: 188px;
           height: 472px;
-          background-color: #76ac25; }
+          background-color: #76ac25;
+          position: relative; }
           .mainNav > .navmenu > .categories > .dd > #booksort > .item {
             height: 58px; }
+            .mainNav > .navmenu > .categories > .dd > #booksort > .item:hover {
+              background: #ffffff; }
+              .mainNav > .navmenu > .categories > .dd > #booksort > .item:hover > .i-master h3 > a {
+                color: #76ac25; }
+              .mainNav > .navmenu > .categories > .dd > #booksort > .item:hover > .i-master h3 > p.fresh {
+                background: url(../images/left_lm_m.png) no-repeat 0 5px; }
+              .mainNav > .navmenu > .categories > .dd > #booksort > .item:hover > .i-master h3 > p.pastry {
+                background: url(../images/left_lm_m.png) no-repeat 0 -159px; }
+              .mainNav > .navmenu > .categories > .dd > #booksort > .item:hover > .i-master h3 > p.baby {
+                background: url(../images/left_lm_m.png) no-repeat 0 -324px; }
+              .mainNav > .navmenu > .categories > .dd > #booksort > .item:hover > .i-master h3 > p.drinks {
+                background: url(../images/left_lm_m.png) no-repeat 0 -47px; }
+              .mainNav > .navmenu > .categories > .dd > #booksort > .item:hover > .i-master h3 > p.food {
+                background: url(../images/left_lm_m.png) no-repeat 0 -106px; }
+              .mainNav > .navmenu > .categories > .dd > #booksort > .item:hover > .i-master h3 > p.oil {
+                background: url(../images/left_lm_m.png) no-repeat 0 -270px; }
+              .mainNav > .navmenu > .categories > .dd > #booksort > .item:hover > .i-master h3 > p.tea {
+                background: url(../images/left_lm_m.png) no-repeat 0 -213px; }
+              .mainNav > .navmenu > .categories > .dd > #booksort > .item:hover > .i-master h3 > p.health {
+                background: url(../images/left_lm_m.png) no-repeat 0 -378px; }
+              .mainNav > .navmenu > .categories > .dd > #booksort > .item:hover > .i-master > .subCat > li > a {
+                color: #76ac25; }
             .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master {
               display: block;
               height: 54px;
@@ -379,86 +512,53 @@ table {
                   .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master > ul > li > a {
                     color: #ddeac8;
                     margin-left: 2px; }
-              .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master:hover {
-                background: #ffffff; }
-                .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master:hover > h3 > a {
-                  color: #76ac25; }
-                .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master:hover > h3 > p.fresh {
-                  background: url(../images/left_lm_m.png) no-repeat 0 5px; }
-                .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master:hover > h3 > p.pastry {
-                  background: url(../images/left_lm_m.png) no-repeat 0 -159px; }
-                .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master:hover > h3 > p.baby {
-                  background: url(../images/left_lm_m.png) no-repeat 0 -324px; }
-                .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master:hover > h3 > p.drinks {
-                  background: url(../images/left_lm_m.png) no-repeat 0 -47px; }
-                .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master:hover > h3 > p.food {
-                  background: url(../images/left_lm_m.png) no-repeat 0 -106px; }
-                .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master:hover > h3 > p.oil {
-                  background: url(../images/left_lm_m.png) no-repeat 0 -270px; }
-                .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master:hover > h3 > p.tea {
-                  background: url(../images/left_lm_m.png) no-repeat 0 -213px; }
-                .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master:hover > h3 > p.health {
-                  background: url(../images/left_lm_m.png) no-repeat 0 -378px; }
-                .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master:hover > .subCat > li > a {
-                  color: #76ac25; }
-        .mainNav > .navmenu > .categories > .dd > #booksortr {
-          width: 560px;
-          height: 480px;
-          position: relative; }
-          .mainNav > .navmenu > .categories > .dd > #booksortr > li {
-            height: 100%;
-            width: 100%;
-            position: absolute;
-            display: none;
-            background: #ffffff; }
-            .mainNav > .navmenu > .categories > .dd > #booksortr > li > .bookl {
-              height: 248px;
-              width: 542px;
-              padding: 8px 10px 24px; }
-              .mainNav > .navmenu > .categories > .dd > #booksortr > li > .bookl > dl {
-                line-height: 26px; }
-                .mainNav > .navmenu > .categories > .dd > #booksortr > li > .bookl > dl > dt {
-                  width: 80px;
-                  padding-right: 10px;
-                  font-weight: bold;
-                  text-align: right;
-                  height: 18px;
-                  line-height: 18px;
-                  margin: 4px 0px;
-                  color: #76ac25; }
-                .mainNav > .navmenu > .categories > .dd > #booksortr > li > .bookl > dl > dd {
-                  overflow: hidden; }
-                  .mainNav > .navmenu > .categories > .dd > #booksortr > li > .bookl > dl > dd > a {
-                    float: left;
-                    display: block;
-                    font-size: 12px;
+            .mainNav > .navmenu > .categories > .dd > #booksort > .item > .item_right {
+              position: absolute;
+              left: 200px;
+              width: 560px;
+              height: 480px;
+              top: 0px;
+              background: #ffffff;
+              display: none; }
+              .mainNav > .navmenu > .categories > .dd > #booksort > .item > .item_right > .bookl {
+                height: 248px;
+                width: 542px;
+                padding: 8px 10px 24px; }
+                .mainNav > .navmenu > .categories > .dd > #booksort > .item > .item_right > .bookl > dl {
+                  line-height: 26px; }
+                  .mainNav > .navmenu > .categories > .dd > #booksort > .item > .item_right > .bookl > dl > dt {
+                    width: 80px;
+                    padding-right: 10px;
+                    font-weight: bold;
+                    text-align: right;
                     height: 18px;
                     line-height: 18px;
                     margin: 4px 0px;
-                    text-align: left;
-                    padding: 0px 6px;
-                    border-left: 1px solid #ccc;
-                    color: #666;
-                    cursor: pointer; }
-                    .mainNav > .navmenu > .categories > .dd > #booksortr > li > .bookl > dl > dd > a:hover {
-                      color: #76ac25; }
-            .mainNav > .navmenu > .categories > .dd > #booksortr > li > .boor {
-              width: 542px;
-              height: 200px; }
-              .mainNav > .navmenu > .categories > .dd > #booksortr > li > .boor > a {
-                display: block; }
-                .mainNav > .navmenu > .categories > .dd > #booksortr > li > .boor > a > img {
-                  height: 100%;
-                  width: 100%; }
-            .mainNav > .navmenu > .categories > .dd > #booksortr > li > span {
-              width: 25px;
-              height: 25px;
-              display: block;
-              position: absolute;
-              top: 6px;
-              right: 6px;
-              background: url(../images/index_icon_new.png) no-repeat -245px -1px;
-              cursor: pointer; }
+                    color: #76ac25; }
+                  .mainNav > .navmenu > .categories > .dd > #booksort > .item > .item_right > .bookl > dl > dd {
+                    overflow: hidden; }
+                    .mainNav > .navmenu > .categories > .dd > #booksort > .item > .item_right > .bookl > dl > dd > a {
+                      float: left;
+                      display: block;
+                      font-size: 12px;
+                      height: 18px;
+                      line-height: 18px;
+                      margin: 4px 0px;
+                      text-align: left;
+                      padding: 0px 6px;
+                      border-left: 1px solid #ccc;
+                      color: #666;
+                      cursor: pointer; }
+                      .mainNav > .navmenu > .categories > .dd > #booksort > .item > .item_right > .bookl > dl > dd > a:hover {
+                        color: #76ac25; }
+              .mainNav > .navmenu > .categories > .dd > #booksort > .item > .item_right > .boor {
+                width: 542px;
+                height: 200px; }
+                .mainNav > .navmenu > .categories > .dd > #booksort > .item > .item_right > .boor > a {
+                  display: block; }
+                  .mainNav > .navmenu > .categories > .dd > #booksort > .item > .item_right > .boor > a > img {
+                    height: 100%;
+                    width: 100%; }
     .mainNav > .navmenu > .menu1 {
       width: 1000px;
       height: 32px;
@@ -499,11 +599,11 @@ table {
     height: 480px;
     position: relative; }
     .slide_show > .indexW > .rSide {
-      position: absolute;
-      right: 0;
-      top: 0;
       width: 260px;
-      height: 100%; }
+      position: absolute;
+      top: 0;
+      margin-left: 940px;
+      z-index: 999; }
       .slide_show > .indexW > .rSide > a {
         display: block;
         width: 260px; }
@@ -519,6 +619,14 @@ table {
         .slide_show > .indexW > .rSide > a > img {
           height: 100%;
           width: 100%; }
+    .slide_show > .indexW > .lside {
+      height: 480px;
+      width: 1000px;
+      position: relative;
+      overflow: hidden;
+      z-index: 30;
+      margin-left: 200px;
+      background: yellowgreen; }
 
 .thefifthyear {
   position: relative;
@@ -678,7 +786,7 @@ table {
             font-size: 12px;
             color: #ffe4c6; }
         .mt2 > .timeLimit_l > .timeLimit_top > ul.time {
-          width: 360px;
+          width: 200px;
           height: 40px;
           margin-top: -4px; }
           .mt2 > .timeLimit_l > .timeLimit_top > ul.time > li {
@@ -1074,7 +1182,7 @@ table {
           font-style: normal;
           font-size: 12px; }
   .zhiwei {
-    width: 400px;
+    width: 600px;
     height: 200px;
     border-bottom: 1px solid #f0f0f0;
     margin: 0 20px 0 10px;
@@ -1082,7 +1190,7 @@ table {
     .zhiwei > h3 {
       padding: 15px 0 9px 15px;
       background: url(../images/zhiwei_bg.jpg) no-repeat center left;
-      width: 385px;
+      width: 585px;
       height: 26px;
       font: bold 16px/26px "Microsoft YaHei";
       color: #323232;
@@ -1091,7 +1199,8 @@ table {
       margin-top: 20px; }
       .zhiwei > ul > li {
         height: 110px;
-        width: 170px; }
+        width: 170px;
+        margin-left: 14px; }
         .zhiwei > ul > li > a {
           display: block;
           height: 110px; }
@@ -1124,74 +1233,53 @@ table {
       font: bold 16px/26px "Microsoft YaHei";
       color: #323232;
       border-bottom: 1px solid #e8e8e8; }
-    .share > ul {
+    .share > .shares {
       margin: 20px 0 0 0;
       position: relative;
       height: 122px;
       overflow: hidden; }
-      .share > ul > li {
-        height: 58px;
-        overflow: hidden;
-        border-bottom: 1px dotted #e8e8e8;
-        margin-bottom: 6px;
-        vertical-align: middle; }
-        .share > ul > li > .share_c {
-          height: 50px;
-          overflow: hidden; }
-          .share > ul > li > .share_c > .r {
-            width: 370px;
+      .share > .shares > ul {
+        position: absolute;
+        left: 0px;
+        top: 0; }
+        .share > .shares > ul > li {
+          height: 58px;
+          overflow: hidden;
+          border-bottom: 1px dotted #e8e8e8;
+          margin-bottom: 6px;
+          vertical-align: middle; }
+          .share > .shares > ul > li > .share_c {
+            height: 50px;
             overflow: hidden; }
-            .share > ul > li > .share_c > .r > p {
-              padding-left: 20px;
+            .share > .shares > ul > li > .share_c > .l {
+              height: 50px;
+              width: 50px; }
+              .share > .shares > ul > li > .share_c > .l > a {
+                display: block;
+                height: 50px; }
+                .share > .shares > ul > li > .share_c > .l > a > img {
+                  height: 100%;
+                  width: 100%; }
+            .share > .shares > ul > li > .share_c > .r {
+              width: 370px;
               overflow: hidden;
-              height: 22px;
-              line-height: 22px; }
-              .share > ul > li > .share_c > .r > p > a {
-                color: #fa9600; }
-            .share > ul > li > .share_c > .r > .s_title {
-              white-space: nowrap;
-              text-overflow: ellipsis;
-              padding-left: 20px;
-              overflow: hidden;
-              height: 22px;
-              line-height: 22px; }
-              .share > ul > li > .share_c > .r > .s_title > a {
-                color: #646464; }
-  .youpin {
-    border: 1px solid #e8e8e8;
-    height: 199px;
-    width: 328px; }
-    .youpin > .ucaption {
-      font: bold 16px/26px "Microsoft YaHei";
-      margin: 0 auto;
-      width: 300px;
-      height: 26px;
-      padding: 14px 0 9px 0;
-      border-bottom: 1px solid #e8e8e8; }
-      .youpin > .ucaption > p {
-        background: url(../images/youpin.jpg) no-repeat center left;
-        padding: 0 0 0 24px;
-        color: #323232; }
-      .youpin > .ucaption > h2 {
-        display: block; }
-        .youpin > .ucaption > h2 > a {
-          width: 60px;
-          height: 29px;
-          display: block;
-          cursor: pointer;
-          background: url(../images/foot_bottom.png) no-repeat -3px -97px; }
-    .youpin > ul {
-      margin-top: 20px; }
-      .youpin > ul > li {
-        height: 110px;
-        width: 160px;
-        margin-left: 3px; }
-        .youpin > ul > li > a {
-          display: block;
-          height: 110px; }
-          .youpin > ul > li > a > img {
-            height: 100%;
-            width: 100%; }
+              height: 50px; }
+              .share > .shares > ul > li > .share_c > .r > p {
+                padding-left: 20px;
+                overflow: hidden;
+                height: 22px;
+                line-height: 22px; }
+                .share > .shares > ul > li > .share_c > .r > p > a {
+                  color: #fa9600; }
+              .share > .shares > ul > li > .share_c > .r > .s_title {
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                padding-left: 20px;
+                overflow: hidden;
+                height: 22px;
+                line-height: 22px; }
+                .share > .shares > ul > li > .share_c > .r > .s_title > a {
+                  color: #646464; }
 
 .promote-end {
   width: 220px;
@@ -1298,6 +1386,11 @@ table {
       .foot > .bottom > li.bottom_kx {
         height: 33px;
         width: 94px; }
+        .foot > .bottom > li.bottom_kx:hover {
+          -webkit-transform: scale(1.3);
+          -moz-transform: scale(1.3);
+          -o-transform: scale(1.3);
+          -webkit-transform-origin: center center; }
         .foot > .bottom > li.bottom_kx > a {
           display: block;
           height: 33px;
@@ -1324,3 +1417,26 @@ table {
             color: #969696; }
             .foot > .bottom > li.siteinfo > p.siteinfop > a:hover {
               color: #adcd7c; }
+
+.scrollTop {
+  width: 44px;
+  height: 300px;
+  position: fixed;
+  bottom: 20px;
+  z-index: 1000;
+  right: 10px;
+  left: auto;
+  margin-left: 0; }
+  .scrollTop > .side-c {
+    height: 44px;
+    width: 44px;
+    margin-top: 6px;
+    position: relative;
+    background: green; }
+    .scrollTop > .side-c > a {
+      height: 44px;
+      width: 44px;
+      display: block;
+      color: #666666; }
+      .scrollTop > .side-c > a.side_v {
+        background: url(../images/paid_bg.png) no-repeat -41px -182px; }

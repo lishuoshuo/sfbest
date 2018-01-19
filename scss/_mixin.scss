@@ -55,3 +55,6 @@
 @mixin YaHei15($size:14px, $line-height: 24px, $weight:bold) {
 	font: $weight #{$size}/#{$line-height}  "Microsoft YaHei";
 }
+@mixin YaHei16($size:16px, $line-height: 22px, $weight:bold) {
+	font: $weight #{$size}/#{$line-height}  "Microsoft YaHei";
+}
