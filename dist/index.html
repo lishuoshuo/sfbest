@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/css.css">
+    <link rel="shortcut icon" href="../images/favicon.ico" />
     <title>Document</title>
 </head>
 
@@ -28,11 +29,26 @@
                 <li>
                     <a href="">我的订单</a>
                 </li>
-                <li>
+                <li class="frMy">
                     <a href="">我的优选</a>
+                    <b></b>
+                    <ul>
+                        <li><a href="##">我的订单</a></li>
+                        <li><a href="##">我的积分</a></li>
+                        <li><a href="##">我的收藏</a></li>
+                        <li><a href="##">我的优选卡</a></li>
+                        <li><a href="##">我的优惠券</a></li>
+                    </ul>
                 </li>
-                <li>
+                <li class="phones">
                     <a href="">移动客户端</a>
+                    <b></b>
+                    <ul>
+                        <li class="phones_one">
+                            <span></span>
+                            <i></i>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <a href="">帮助中心</a>
@@ -77,20 +93,12 @@
             </a>
         </div>
         <div class="search">
-            <form action="">
+            <form action="" class="keyWord">
                 <input type="text" class="inputl" name="" id="" placeholder="">
                 <input type="text" class="inputr" name="" id="" placeholder="">
             </form>
-            <div class="search_hot">
-                <a href="">白虾</a>
-                <a href="">燕窝</a>
-                <a href="">鳕鱼</a>
-                <a href="">车厘子</a>
-                <a href="">牛油果</a>
-                <a href="">猕猴桃</a>
-                <a href="">大米</a>
-                <a href="">拉菲</a>
-                <a href="">牛奶</a>
+            <div class="search_hot" id="searchHot">
+
             </div>
         </div>
         <div class="shopingcar">
@@ -106,8 +114,8 @@
                     <a href="#">精品商品分类</a>
                 </div>
                 <div class="dd">
-                    <div id="booksort">
-                        <div class="item">
+                    <ul id="booksort">
+                        <li class="item">
                             <div class="i-master">
                                 <h3>
                                     <p class="fresh"></p>
@@ -128,8 +136,8 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
-                        <div class="item">
+                        </li>
+                        <li class="item">
                             <div class="i-master">
                                 <h3>
                                     <p class="pastry"></p>
@@ -150,8 +158,8 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
-                        <div class="item">
+                        </li>
+                        <li class="item">
                             <div class="i-master">
                                 <h3>
                                     <p class="baby"></p>
@@ -172,8 +180,8 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
-                        <div class="item">
+                        </li>
+                        <li class="item">
                             <div class="i-master">
                                 <h3>
                                     <p class="drinks"></p>
@@ -194,8 +202,8 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
-                        <div class="item">
+                        </li>
+                        <li class="item">
                             <div class="i-master">
                                 <h3>
                                     <p class="food"></p>
@@ -216,8 +224,8 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
-                        <div class="item">
+                        </li>
+                        <li class="item">
                             <div class="i-master">
                                 <h3>
                                     <p class="oil"></p>
@@ -238,8 +246,8 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
-                        <div class="item">
+                        </li>
+                        <li class="item">
                             <div class="i-master">
                                 <h3>
                                     <p class="tea"></p>
@@ -260,8 +268,8 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
-                        <div class="item">
+                        </li>
+                        <li class="item">
                             <div class="i-master">
                                 <h3>
                                     <p class="health"></p>
@@ -282,8 +290,280 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
-                    </div>
+                        </li>
+                    </ul>
+                    <ul id="booksortr">
+                        <li style="z-index:2;">
+                            <div class="bookl">
+                                <dl>
+                                    <dt>精品肉类</dt>
+                                    <dd>
+                                        <a href="">牛肉</a>
+                                        <a href="">牛肉</a>
+                                        <a href="">牛肉</a>
+                                        <a href="">牛肉</a>
+                                        <a href="">牛肉</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>精品afafs肉类</dt>
+                                    <dd>
+                                        <a>虾</a>
+                                        <a>鱼</a>
+                                        <a>大闸蟹</a>
+                                        <a>蟹/贝类</a>
+                                        <a>水产礼盒</a>
+                                        <a>卡券</a>
+                                        <a>其他水产</a>
+                                        <a>蟹/贝类</a>
+                                        <a>水产礼盒</a>
+                                        <a>卡券</a>
+                                        <a>其他水产</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="bookr">
+                                <a href="">
+                                    <img src="http://p03.sfbest.com/2018/01/1516013214.jpg" alt="">
+                                </a>
+                            </div>
+                            <span></span>
+                        </li>
+                        <li>
+                            <div class="bookl">
+                                <dl>
+                                    <dt>aaa精品肉类</dt>
+                                    <dd>
+                                        <a href="">牛肉</a>
+                                        <a href="">牛肉</a>
+                                        <a href="">牛肉</a>
+                                        <a href="">牛肉</a>
+                                        <a href="">牛肉</a>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>精品肉类</dt>
+                                    <dd>
+                                        <a>虾</a>
+                                        <a>鱼</a>
+                                        <a>大闸蟹</a>
+                                        <a>蟹/贝类</a>
+                                        <a>水产礼盒</a>
+                                        <a>卡券</a>
+                                        <a>其他水产</a>
+                                        <a>蟹/贝类</a>
+                                        <a>水产礼盒</a>
+                                        <a>卡券</a>
+                                        <a>其他水产</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="bookr">
+                                <a href="">
+                                    <img src="http://p03.sfbest.com/2018/01/1516013214.jpg" alt="">
+                                </a>
+                            </div>
+                            <span></span>
+                        </li>
+                        <li>
+                            <div class="bookl">
+                                <dl>
+                                    <dt>精品肉类bbb</dt>
+                                    <dd>
+                                        <a href="">牛肉</a>
+
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>精品肉类</dt>
+                                    <dd>
+                                        <a>虾</a>
+                                        <a>鱼</a>
+                                        <a>大闸蟹</a>
+                                        <a>蟹/贝类</a>
+                                        <a>水产礼盒</a>
+                                        <a>卡券</a>
+                                        <a>其他水产</a>
+                                        <a>蟹/贝类</a>
+                                        <a>水产礼盒</a>
+                                        <a>卡券</a>
+                                        <a>其他水产</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="bookr">
+                                <a href="">
+                                    <img src="http://p03.sfbest.com/2018/01/1516013214.jpg" alt="">
+                                </a>
+                            </div>
+                            <span></span>
+                        </li>
+                        <li>
+                            <div class="bookl">
+                                <dl>
+                                    <dt>精品肉类bbb</dt>
+                                    <dd>
+                                        <a href="">牛肉</a>
+
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>精品肉类</dt>
+                                    <dd>
+                                        <a>虾</a>
+                                        <a>鱼</a>
+                                        <a>大闸蟹</a>
+                                        <a>蟹/贝类</a>
+                                        <a>水产礼盒</a>
+                                        <a>卡券</a>
+                                        <a>其他水产</a>
+                                        <a>蟹/贝类</a>
+                                        <a>水产礼盒</a>
+                                        <a>卡券</a>
+                                        <a>其他水产</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="bookr">
+                                <a href="">
+                                    <img src="http://p03.sfbest.com/2018/01/1516013214.jpg" alt="">
+                                </a>
+                            </div>
+                            <span></span>
+                        </li>
+                        <li>
+                            <div class="bookl">
+                                <dl>
+                                    <dt>精品肉类bbb</dt>
+                                    <dd>
+                                        <a href="">牛肉</a>
+
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>精品肉类</dt>
+                                    <dd>
+                                        <a>虾</a>
+                                        <a>鱼</a>
+                                        <a>大闸蟹</a>
+                                        <a>蟹/贝类</a>
+                                        <a>水产礼盒</a>
+                                        <a>卡券</a>
+                                        <a>其他水产</a>
+                                        <a>蟹/贝类</a>
+                                        <a>水产礼盒</a>
+                                        <a>卡券</a>
+                                        <a>其他水产</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="bookr">
+                                <a href="">
+                                    <img src="http://p03.sfbest.com/2018/01/1516013214.jpg" alt="">
+                                </a>
+                            </div>
+                            <span></span>
+                        </li>
+                        <li>
+                            <div class="bookl">
+                                <dl>
+                                    <dt>精品肉类bbb</dt>
+                                    <dd>
+                                        <a href="">牛肉</a>
+
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>精品肉类</dt>
+                                    <dd>
+                                        <a>虾</a>
+                                        <a>鱼</a>
+                                        <a>大闸蟹</a>
+                                        <a>蟹/贝类</a>
+                                        <a>水产礼盒</a>
+                                        <a>卡券</a>
+                                        <a>其他水产</a>
+                                        <a>蟹/贝类</a>
+                                        <a>水产礼盒</a>
+                                        <a>卡券</a>
+                                        <a>其他水产</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="bookr">
+                                <a href="">
+                                    <img src="http://p03.sfbest.com/2018/01/1516013214.jpg" alt="">
+                                </a>
+                            </div>
+                            <span></span>
+                        </li>
+                        <li>
+                            <div class="bookl">
+                                <dl>
+                                    <dt>精品肉类bbb</dt>
+                                    <dd>
+                                        <a href="">牛肉</a>
+
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>精品肉类</dt>
+                                    <dd>
+                                        <a>虾</a>
+                                        <a>鱼</a>
+                                        <a>大闸蟹</a>
+                                        <a>蟹/贝类</a>
+                                        <a>水产礼盒</a>
+                                        <a>卡券</a>
+                                        <a>其他水产</a>
+                                        <a>蟹/贝类</a>
+                                        <a>水产礼盒</a>
+                                        <a>卡券</a>
+                                        <a>其他水产</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="bookr">
+                                <a href="">
+                                    <img src="http://p03.sfbest.com/2018/01/1516013214.jpg" alt="">
+                                </a>
+                            </div>
+                            <span></span>
+                        </li>
+                        <li>
+                            <div class="bookl">
+                                <dl>
+                                    <dt>精品肉类bbb</dt>
+                                    <dd>
+                                        <a href="">牛肉</a>
+
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>精品肉类</dt>
+                                    <dd>
+                                        <a>虾</a>
+                                        <a>鱼</a>
+                                        <a>大闸蟹</a>
+                                        <a>蟹/贝类</a>
+                                        <a>水产礼盒</a>
+                                        <a>卡券</a>
+                                        <a>其他水产</a>
+                                        <a>蟹/贝类</a>
+                                        <a>水产礼盒</a>
+                                        <a>卡券</a>
+                                        <a>其他水产</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="bookr">
+                                <a href="">
+                                    <img src="http://p03.sfbest.com/2018/01/1516013214.jpg" alt="">
+                                </a>
+                            </div>
+                            <span></span>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="menu1">
@@ -339,103 +619,8 @@
                 <h3>优选必买
                     <span></span>
                 </h3>
-                <ul class="bbig">
-                    <li>
-                        <a href="">
-                            <p>永昌顺 羊肉片 400g 赠蘸料60g</p>
-                            <h3>
-                                <i>￥</i>
-                                <span>59.9</span>
-                            </h3>
-                            <div class="bbig_img">
-                                <img src="http://pic.sfbest.com/adsSaleGoodsPic/252977b80017f1c6897337e622d3403e.jpg" alt="">
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <p>永昌顺 羊肉片 400g 赠蘸料60g</p>
-                            <h3>
-                                <i>￥</i>
-                                <span>59.9</span>
-                            </h3>
-                            <div class="bbig_img">
-                                <img src="http://pic.sfbest.com/adsSaleGoodsPic/252977b80017f1c6897337e622d3403e.jpg" alt="">
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <p>永昌顺 羊肉片 400g 赠蘸料60g</p>
-                            <h3>
-                                <i>￥</i>
-                                <span>59.9</span>
-                            </h3>
-                            <div class="bbig_img">
-                                <img src="http://pic.sfbest.com/adsSaleGoodsPic/252977b80017f1c6897337e622d3403e.jpg" alt="">
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <p>永昌顺 羊肉片 400g 赠蘸料60g</p>
-                            <h3>
-                                <i>￥</i>
-                                <span>59.9</span>
-                            </h3>
-                            <div class="bbig_img">
-                                <img src="http://pic.sfbest.com/adsSaleGoodsPic/252977b80017f1c6897337e622d3403e.jpg" alt="">
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <p>永昌顺 羊肉片 400g 赠蘸料60g</p>
-                            <h3>
-                                <i>￥</i>
-                                <span>59.9</span>
-                            </h3>
-                            <div class="bbig_img">
-                                <img src="http://pic.sfbest.com/adsSaleGoodsPic/252977b80017f1c6897337e622d3403e.jpg" alt="">
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <p>永昌顺 羊肉片 400g 赠蘸料60g</p>
-                            <h3>
-                                <i>￥</i>
-                                <span>59.9</span>
-                            </h3>
-                            <div class="bbig_img">
-                                <img src="http://pic.sfbest.com/adsSaleGoodsPic/252977b80017f1c6897337e622d3403e.jpg" alt="">
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <p>永昌顺 羊肉片 400g 赠蘸料60g</p>
-                            <h3>
-                                <i>￥</i>
-                                <span>59.9</span>
-                            </h3>
-                            <div class="bbig_img">
-                                <img src="http://pic.sfbest.com/adsSaleGoodsPic/252977b80017f1c6897337e622d3403e.jpg" alt="">
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <p>永昌顺 羊肉片 400g 赠蘸料60g</p>
-                            <h3>
-                                <i>￥</i>
-                                <span>59.9</span>
-                            </h3>
-                            <div class="bbig_img">
-                                <img src="http://pic.sfbest.com/adsSaleGoodsPic/252977b80017f1c6897337e622d3403e.jpg" alt="">
-                            </div>
-                        </a>
-                    </li>
+                <ul class="bbig" id="bbig">
+
                 </ul>
             </div>
             <div class="rSide1">
@@ -597,143 +782,8 @@
             </div>
         </div>
         <div class="subCont fruits_bor">
-            <ul>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
+            <ul id="fruitList">
+
             </ul>
         </div>
         <div class="redge fruits_bor">
@@ -800,143 +850,8 @@
             </div>
         </div>
         <div class="subCont meat_bor">
-            <ul>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4600275759/middle_4600275759_2_2/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4600275759/middle_4600275759_2_2/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4600275759/middle_4600275759_2_2/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4600275759/middle_4600275759_2_2/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4600275759/middle_4600275759_2_2/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4600275759/middle_4600275759_2_2/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4600275759/middle_4600275759_2_2/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4600275759/middle_4600275759_2_2/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
+            <ul id="meatList">
+
             </ul>
         </div>
         <div class="redge meat_bor">
@@ -993,8 +908,7 @@
         <div class="category">
             <h3 class="food">
                 <i></i>
-                <a href="#">水果</a>
-                <a href="#">蔬菜</a>
+                <a href="#">熟食蛋奶</a>
             </h3>
             <div class="category_img">
                 <a href="##">
@@ -1003,143 +917,8 @@
             </div>
         </div>
         <div class="subCont food_bor">
-            <ul>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4900275579/middle_4900275579_0_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4900275579/middle_4900275579_0_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4900275579/middle_4900275579_0_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4900275579/middle_4900275579_0_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4900275579/middle_4900275579_0_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4900275579/middle_4900275579_0_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4900275579/middle_4900275579_0_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4900275579/middle_4900275579_0_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
+            <ul id="foodList">
+
             </ul>
         </div>
         <div class="redge food_bor">
@@ -1206,143 +985,8 @@
             </div>
         </div>
         <div class="subCont grain_bor">
-            <ul>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/1300271507/middle_1300271507_1_4/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/1300271507/middle_1300271507_1_4/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/1300271507/middle_1300271507_1_4/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/1300271507/middle_1300271507_1_4/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/1300271507/middle_1300271507_1_4/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/1300271507/middle_1300271507_1_4/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="hhttp://p02.sfbest.com/2017/1300271507/middle_1300271507_1_4/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/1300271507/middle_1300271507_1_4/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
+            <ul id="grainList">
+
             </ul>
         </div>
         <div class="redge grain_bor">
@@ -1408,143 +1052,8 @@
             </div>
         </div>
         <div class="subCont arder_bor">
-            <ul>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
+            <ul id="arderList">
+
             </ul>
         </div>
         <div class="redge arder_bor">
@@ -1610,143 +1119,8 @@
             </div>
         </div>
         <div class="subCont tea_bor">
-            <ul>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
+            <ul id="teaList">
+
             </ul>
         </div>
         <div class="redge tea_bor">
@@ -1812,143 +1186,8 @@
             </div>
         </div>
         <div class="subCont drinks_bor">
-            <ul>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
-                <li>
-                    <div class="subCont_img">
-                        <a href="">
-                            <img src="http://p02.sfbest.com/2017/4400279537/middle_w_4400279537_1_1/160x160.jpg" alt="">
-                        </a>
-                        <div class="move_img">
-                            <a href="">加入购物车</a>
-                        </div>
-                    </div>
-                    <p class="subT">
-                        <a href="">赣南脐橙4.5kg</a>
-                    </p>
-                    <p class="subB">
-                        <i>￥</i>
-                        <span>66</span>
-                    </p>
-                </li>
+            <ul id="drinksList">
+
             </ul>
         </div>
         <div class="redge drinks_bor">
@@ -1998,197 +1237,7 @@
         <div class="promote_top">
             <i></i>
         </div>
-        <ul>
-            <li>
-                <div class="pImg">
-                    <a href="">
-                        <img src="http://p.sfbest.com/mapp/resource/62/620b4aa3a534c4cf86b4d02f30f0fc21/210x210.jpg" alt="">
-                    </a>
-                    <div class="gBtn">
-                        <a href="#">加入购物车</a>
-                    </div>
-                </div>
-                <p class="pt">
-                    <a href="#">
-                        五粮液 52° 万事如意酒（中国红） 500ml
-                    </a>
-                </p>
-                <p class="pb">
-                    <i>￥</i>
-                    <span>99</span>
-                </p>
-            </li>
-            <li>
-                <div class="pImg">
-                    <a href="">
-                        <img src="http://p.sfbest.com/mapp/resource/62/620b4aa3a534c4cf86b4d02f30f0fc21/210x210.jpg" alt="">
-                    </a>
-                    <div class="gBtn">
-                        <a href="#">加入购物车</a>
-                    </div>
-                </div>
-                <p class="pt">
-                    <a href="#">
-                        五粮液 52° 万事如意酒（中国红） 500ml
-                    </a>
-                </p>
-                <p class="pb">
-                    <i>￥</i>
-                    <span>99</span>
-                </p>
-            </li>
-            <li>
-                <div class="pImg">
-                    <a href="">
-                        <img src="http://p.sfbest.com/mapp/resource/62/620b4aa3a534c4cf86b4d02f30f0fc21/210x210.jpg" alt="">
-                    </a>
-                    <div class="gBtn">
-                        <a href="#">加入购物车</a>
-                    </div>
-                </div>
-                <p class="pt">
-                    <a href="#">
-                        五粮液 52° 万事如意酒（中国红） 500ml
-                    </a>
-                </p>
-                <p class="pb">
-                    <i>￥</i>
-                    <span>99</span>
-                </p>
-            </li>
-            <li>
-                <div class="pImg">
-                    <a href="">
-                        <img src="http://p.sfbest.com/mapp/resource/62/620b4aa3a534c4cf86b4d02f30f0fc21/210x210.jpg" alt="">
-                    </a>
-                    <div class="gBtn">
-                        <a href="#">加入购物车</a>
-                    </div>
-                </div>
-                <p class="pt">
-                    <a href="#">
-                        五粮液 52° 万事如意酒（中国红） 500ml
-                    </a>
-                </p>
-                <p class="pb">
-                    <i>￥</i>
-                    <span>99</span>
-                </p>
-            </li>
-            <li>
-                <div class="pImg">
-                    <a href="">
-                        <img src="http://p.sfbest.com/mapp/resource/62/620b4aa3a534c4cf86b4d02f30f0fc21/210x210.jpg" alt="">
-                    </a>
-                    <div class="gBtn">
-                        <a href="#">加入购物车</a>
-                    </div>
-                </div>
-                <p class="pt">
-                    <a href="#">
-                        五粮液 52° 万事如意酒（中国红） 500ml
-                    </a>
-                </p>
-                <p class="pb">
-                    <i>￥</i>
-                    <span>99</span>
-                </p>
-            </li>
-            <li>
-                <div class="pImg">
-                    <a href="">
-                        <img src="http://p.sfbest.com/mapp/resource/62/620b4aa3a534c4cf86b4d02f30f0fc21/210x210.jpg" alt="">
-                    </a>
-                    <div class="gBtn">
-                        <a href="#">加入购物车</a>
-                    </div>
-                </div>
-                <p class="pt">
-                    <a href="#">
-                        五粮液 52° 万事如意酒（中国红） 500ml
-                    </a>
-                </p>
-                <p class="pb">
-                    <i>￥</i>
-                    <span>99</span>
-                </p>
-            </li>
-            <li>
-                <div class="pImg">
-                    <a href="">
-                        <img src="http://p.sfbest.com/mapp/resource/62/620b4aa3a534c4cf86b4d02f30f0fc21/210x210.jpg" alt="">
-                    </a>
-                    <div class="gBtn">
-                        <a href="#">加入购物车</a>
-                    </div>
-                </div>
-                <p class="pt">
-                    <a href="#">
-                        五粮液 52° 万事如意酒（中国红） 500ml
-                    </a>
-                </p>
-                <p class="pb">
-                    <i>￥</i>
-                    <span>99</span>
-                </p>
-            </li>
-            <li>
-                <div class="pImg">
-                    <a href="">
-                        <img src="http://p.sfbest.com/mapp/resource/62/620b4aa3a534c4cf86b4d02f30f0fc21/210x210.jpg" alt="">
-                    </a>
-                    <div class="gBtn">
-                        <a href="#">加入购物车</a>
-                    </div>
-                </div>
-                <p class="pt">
-                    <a href="#">
-                        五粮液 52° 万事如意酒（中国红） 500ml
-                    </a>
-                </p>
-                <p class="pb">
-                    <i>￥</i>
-                    <span>99</span>
-                </p>
-            </li>
-            <li>
-                <div class="pImg">
-                    <a href="">
-                        <img src="http://p.sfbest.com/mapp/resource/62/620b4aa3a534c4cf86b4d02f30f0fc21/210x210.jpg" alt="">
-                    </a>
-                    <div class="gBtn">
-                        <a href="#">加入购物车</a>
-                    </div>
-                </div>
-                <p class="pt">
-                    <a href="#">
-                        五粮液 52° 万事如意酒（中国红） 500ml
-                    </a>
-                </p>
-                <p class="pb">
-                    <i>￥</i>
-                    <span>99</span>
-                </p>
-            </li>
-            <li>
-                <div class="pImg">
-                    <a href="">
-                        <img src="http://p.sfbest.com/mapp/resource/62/620b4aa3a534c4cf86b4d02f30f0fc21/210x210.jpg" alt="">
-                    </a>
-                    <div class="gBtn">
-                        <a href="#">加入购物车</a>
-                    </div>
-                </div>
-                <p class="pt">
-                    <a href="#">
-                        五粮液 52° 万事如意酒（中国红） 500ml
-                    </a>
-                </p>
-                <p class="pb">
-                    <i>￥</i>
-                    <span>99</span>
-                </p>
-            </li>
+        <ul id="recommendList">
 
         </ul>
     </div>
@@ -2409,6 +1458,8 @@
             </ul>
         </div>
     </div>
+    <script src="scripts/require.js"></script>
+    <script src="scripts/index.js"></script>
 </body>
 
 </html>

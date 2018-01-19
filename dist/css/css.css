@@ -41,9 +41,9 @@ h6 {
 table {
   border-collapse: collapse; }
 
-.topMenu > .pW > .fl, .header, .header > .logo > a > .logoOne, .mainNav > .navmenu, .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master > ul, .mainNav > .navmenu > .menu1 > ul, .indexW, .bestbuy, .bestbuy > .b_left > ul.bbig, .bestbuy > .rSide1 > .sfNews > .rTitle, .mt2, .mt2 > .timeLimit_l > .timeLimit_top, .mt2 > .timeLimit_l > .timeLimit_top > ul.time, .mt2 > .timeLimit_l > .timeLimit_bot > ul, .category > h3, .subCont > ul, .redge > ul, .indexW.promote > ul, .zhiwei > ul, .youpin > ul, .footer > .footer_zd > ul, .foot > .pageFooter, .foot > .pageFooter > .right, .foot > .pageFooter > .left, .foot > .bottom {
+.topMenu > .pW > .fl, .header, .header > .logo > a > .logoOne, .mainNav > .navmenu, .mainNav > .navmenu > .categories > .dd, .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master > ul, .mainNav > .navmenu > .categories > .dd > #booksortr > li > .bookl > dl, .mainNav > .navmenu > .categories > .dd > #booksortr > li > .bookl > dl > dd, .mainNav > .navmenu > .menu1 > ul, .indexW, .bestbuy, .bestbuy > .b_left > ul.bbig, .bestbuy > .rSide1 > .sfNews > .rTitle, .mt2, .mt2 > .timeLimit_l > .timeLimit_top, .mt2 > .timeLimit_l > .timeLimit_top > ul.time, .mt2 > .timeLimit_l > .timeLimit_bot > ul, .category > h3, .subCont > ul, .redge > ul, .indexW.promote > ul, .zhiwei > ul, .youpin > ul, .footer > .footer_zd > ul, .foot > .pageFooter, .foot > .pageFooter > .right, .foot > .pageFooter > .left, .foot > .bottom {
   *zoom: 1; }
-  .topMenu > .pW > .fl:after, .header:after, .header > .logo > a > .logoOne:after, .mainNav > .navmenu:after, .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master > ul:after, .mainNav > .navmenu > .menu1 > ul:after, .indexW:after, .bestbuy:after, .bestbuy > .b_left > ul.bbig:after, .bestbuy > .rSide1 > .sfNews > .rTitle:after, .mt2:after, .mt2 > .timeLimit_l > .timeLimit_top:after, .mt2 > .timeLimit_l > .timeLimit_top > ul.time:after, .mt2 > .timeLimit_l > .timeLimit_bot > ul:after, .category > h3:after, .subCont > ul:after, .redge > ul:after, .indexW.promote > ul:after, .zhiwei > ul:after, .youpin > ul:after, .footer > .footer_zd > ul:after, .foot > .pageFooter:after, .foot > .pageFooter > .right:after, .foot > .pageFooter > .left:after, .foot > .bottom:after {
+  .topMenu > .pW > .fl:after, .header:after, .header > .logo > a > .logoOne:after, .mainNav > .navmenu:after, .mainNav > .navmenu > .categories > .dd:after, .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master > ul:after, .mainNav > .navmenu > .categories > .dd > #booksortr > li > .bookl > dl:after, .mainNav > .navmenu > .categories > .dd > #booksortr > li > .bookl > dl > dd:after, .mainNav > .navmenu > .menu1 > ul:after, .indexW:after, .bestbuy:after, .bestbuy > .b_left > ul.bbig:after, .bestbuy > .rSide1 > .sfNews > .rTitle:after, .mt2:after, .mt2 > .timeLimit_l > .timeLimit_top:after, .mt2 > .timeLimit_l > .timeLimit_top > ul.time:after, .mt2 > .timeLimit_l > .timeLimit_bot > ul:after, .category > h3:after, .subCont > ul:after, .redge > ul:after, .indexW.promote > ul:after, .zhiwei > ul:after, .youpin > ul:after, .footer > .footer_zd > ul:after, .foot > .pageFooter:after, .foot > .pageFooter > .right:after, .foot > .pageFooter > .left:after, .foot > .bottom:after {
     content: "\0020";
     display: block;
     height: 0;
@@ -51,7 +51,7 @@ table {
     overflow: hidden;
     visibility: hidden; }
 
-.topMenu > .pW > .fl, .topMenu > .pW > .fl > li, .topMenu > .pW > .fr > li, .header > .logo, .header > .logo > a > .logoOne > p, .header > .playLogo, .header > .search, .header > .search > form > input, .mainNav > .navmenu > .categories, .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master > ul > li, .mainNav > .navmenu > .menu1, .mainNav > .navmenu > .menu1 > ul > li, .bestbuy > .b_left, .bestbuy > .b_left > ul.bbig > li, .bestbuy > .rSide1 > .sfNews > .rTitle > h2, .mt2 > .timeLimit_l, .mt2 > .timeLimit_l > .timeLimit_top > span, .mt2 > .timeLimit_l > .timeLimit_top > p, .mt2 > .timeLimit_l > .timeLimit_top > ul.time, .mt2 > .timeLimit_l > .timeLimit_top > ul.time > li, .mt2 > .timeLimit_l > .timeLimit_bot > ul > li, .category, .category > h3 > i, .subCont, .subCont > ul > li, .redge > ul > li, .indexW.promote > ul > li, .zhiwei, .zhiwei > ul > li, .share, .share > ul > li > .share_c > .l, .youpin > .ucaption > p, .youpin > ul > li, .footer > .footer_zd > ul > li, .foot > .pageFooter > .middle, .foot > .pageFooter > .right, .foot > .pageFooter > .right > ul, .foot > .pageFooter > .left, .foot > .pageFooter > .left > ul, .foot > .bottom > li {
+.topMenu > .pW > .fl, .topMenu > .pW > .fl > li, .topMenu > .pW > .fr > li, .header > .logo, .header > .logo > a > .logoOne > p, .header > .playLogo, .header > .search, .header > .search > form > input, .mainNav > .navmenu > .categories, .mainNav > .navmenu > .categories > .dd > #booksort, .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master > ul > li, .mainNav > .navmenu > .categories > .dd > #booksortr, .mainNav > .navmenu > .categories > .dd > #booksortr > li > .bookl > dl > dt, .mainNav > .navmenu > .menu1, .mainNav > .navmenu > .menu1 > ul > li, .bestbuy > .b_left, .bestbuy > .b_left > ul.bbig > li, .bestbuy > .rSide1 > .sfNews > .rTitle > h2, .mt2 > .timeLimit_l, .mt2 > .timeLimit_l > .timeLimit_top > span, .mt2 > .timeLimit_l > .timeLimit_top > p, .mt2 > .timeLimit_l > .timeLimit_top > ul.time, .mt2 > .timeLimit_l > .timeLimit_top > ul.time > li, .mt2 > .timeLimit_l > .timeLimit_bot > ul > li, .category, .category > h3 > i, .subCont, .subCont > ul > li, .redge > ul > li, .indexW.promote > ul > li, .zhiwei, .zhiwei > ul > li, .share, .share > ul > li > .share_c > .l, .youpin > .ucaption > p, .youpin > ul > li, .footer > .footer_zd > ul > li, .foot > .pageFooter > .middle, .foot > .pageFooter > .right, .foot > .pageFooter > .right > ul, .foot > .pageFooter > .left, .foot > .pageFooter > .left > ul, .foot > .bottom > li {
   float: left; }
 
 .topMenu > .pW > .fr, .header > .shopingcar, .bestbuy > .rSide1, .bestbuy > .rSide1 > .sfNews > .rTitle > a, .mt2 > .timeLimit_l > .timeLimit_top > p.tright, .mt2 > .timeLimit_r, .share > ul > li > .share_c > .r, .youpin, .youpin > .ucaption > h2 {
@@ -90,9 +90,90 @@ table {
     .topMenu > .pW > .fr > li {
       padding: 0 10px;
       color: #999999;
+      position: relative;
       line-height: 33px; }
       .topMenu > .pW > .fr > li > a {
         color: #969696; }
+      .topMenu > .pW > .fr > li:hover > a {
+        color: #76ac25; }
+      .topMenu > .pW > .fr > li.frMy {
+        width: 60px;
+        position: relative; }
+        .topMenu > .pW > .fr > li.frMy > b {
+          position: absolute;
+          right: 12px;
+          top: 15px;
+          background: url(../images/header.png) no-repeat -86px -130px;
+          width: 8px;
+          height: 4px;
+          transition: transform .2s ease-in 0s;
+          -webkit-transition: -webkit-transform .2s ease-in 0s;
+          overflow: hidden; }
+        .topMenu > .pW > .fr > li.frMy:hover b {
+          transform: rotate(180deg);
+          -webkit-transform: rotate(180deg); }
+        .topMenu > .pW > .fr > li.frMy:hover > ul {
+          box-shadow: 0 0 5px #dadada; }
+        .topMenu > .pW > .fr > li.frMy > ul {
+          position: absolute;
+          top: 1px;
+          padding-top: 33px;
+          width: 80px;
+          left: 0px;
+          text-align: center; }
+          .topMenu > .pW > .fr > li.frMy > ul > li {
+            line-height: 22px;
+            background: #ffffff; }
+      .topMenu > .pW > .fr > li.phones {
+        padding: 0 10px 0 28px;
+        background: green; }
+        .topMenu > .pW > .fr > li.phones > b {
+          background: url(../images/header.png) no-repeat -73px -122px;
+          width: 10px;
+          left: 10px;
+          transition: all 0.2s ease 0s;
+          display: block;
+          height: 16px;
+          position: absolute;
+          top: 9px; }
+        .topMenu > .pW > .fr > li.phones:hover b {
+          background: url(../images/header.png) no-repeat -73px -138px; }
+        .topMenu > .pW > .fr > li.phones > ul {
+          position: absolute;
+          top: 33px;
+          width: 230px;
+          left: -50px;
+          height: 153px;
+          padding: 15px 0 0 0;
+          background: yellowgreen;
+          border: 1px solid #dadada;
+          background-color: white;
+          z-index: 1000; }
+          .topMenu > .pW > .fr > li.phones > ul > .phones_one {
+            width: 215px;
+            height: 74px;
+            margin-bottom: 10px;
+            margin-left: 15px;
+            position: relative;
+            background: blue; }
+            .topMenu > .pW > .fr > li.phones > ul > .phones_one > span {
+              width: 73px;
+              height: 74px;
+              overflow: hidden;
+              background: url(../images/header.png) no-repeat 0 -93px;
+              display: block; }
+            .topMenu > .pW > .fr > li.phones > ul > .phones_one > i {
+              position: absolute;
+              width: 50px;
+              height: 29px;
+              left: 80px;
+              top: 5px;
+              background: url(../images/header.png) no-repeat -73px -93px;
+              display: block; }
+            .topMenu > .pW > .fr > li.phones > ul > .phones_one > p {
+              position: absolute;
+              left: 95px;
+              top: 34px; }
       .topMenu > .pW > .fr > li.tShow {
         height: 33px;
         width: 30px;
@@ -243,13 +324,15 @@ table {
         margin: 0;
         z-index: 998;
         padding: 0;
-        width: 200px;
+        width: 760px;
         height: 480px;
-        position: absolute;
-        background-color: #76ac25; }
+        position: absolute; }
         .mainNav > .navmenu > .categories > .dd > #booksort {
           padding-top: 8px;
-          padding-left: 12px; }
+          padding-left: 12px;
+          width: 188px;
+          height: 472px;
+          background-color: #76ac25; }
           .mainNav > .navmenu > .categories > .dd > #booksort > .item {
             height: 58px; }
             .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master {
@@ -296,6 +379,86 @@ table {
                   .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master > ul > li > a {
                     color: #ddeac8;
                     margin-left: 2px; }
+              .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master:hover {
+                background: #ffffff; }
+                .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master:hover > h3 > a {
+                  color: #76ac25; }
+                .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master:hover > h3 > p.fresh {
+                  background: url(../images/left_lm_m.png) no-repeat 0 5px; }
+                .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master:hover > h3 > p.pastry {
+                  background: url(../images/left_lm_m.png) no-repeat 0 -159px; }
+                .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master:hover > h3 > p.baby {
+                  background: url(../images/left_lm_m.png) no-repeat 0 -324px; }
+                .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master:hover > h3 > p.drinks {
+                  background: url(../images/left_lm_m.png) no-repeat 0 -47px; }
+                .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master:hover > h3 > p.food {
+                  background: url(../images/left_lm_m.png) no-repeat 0 -106px; }
+                .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master:hover > h3 > p.oil {
+                  background: url(../images/left_lm_m.png) no-repeat 0 -270px; }
+                .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master:hover > h3 > p.tea {
+                  background: url(../images/left_lm_m.png) no-repeat 0 -213px; }
+                .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master:hover > h3 > p.health {
+                  background: url(../images/left_lm_m.png) no-repeat 0 -378px; }
+                .mainNav > .navmenu > .categories > .dd > #booksort > .item > .i-master:hover > .subCat > li > a {
+                  color: #76ac25; }
+        .mainNav > .navmenu > .categories > .dd > #booksortr {
+          width: 560px;
+          height: 480px;
+          position: relative; }
+          .mainNav > .navmenu > .categories > .dd > #booksortr > li {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            display: none;
+            background: #ffffff; }
+            .mainNav > .navmenu > .categories > .dd > #booksortr > li > .bookl {
+              height: 248px;
+              width: 542px;
+              padding: 8px 10px 24px; }
+              .mainNav > .navmenu > .categories > .dd > #booksortr > li > .bookl > dl {
+                line-height: 26px; }
+                .mainNav > .navmenu > .categories > .dd > #booksortr > li > .bookl > dl > dt {
+                  width: 80px;
+                  padding-right: 10px;
+                  font-weight: bold;
+                  text-align: right;
+                  height: 18px;
+                  line-height: 18px;
+                  margin: 4px 0px;
+                  color: #76ac25; }
+                .mainNav > .navmenu > .categories > .dd > #booksortr > li > .bookl > dl > dd {
+                  overflow: hidden; }
+                  .mainNav > .navmenu > .categories > .dd > #booksortr > li > .bookl > dl > dd > a {
+                    float: left;
+                    display: block;
+                    font-size: 12px;
+                    height: 18px;
+                    line-height: 18px;
+                    margin: 4px 0px;
+                    text-align: left;
+                    padding: 0px 6px;
+                    border-left: 1px solid #ccc;
+                    color: #666;
+                    cursor: pointer; }
+                    .mainNav > .navmenu > .categories > .dd > #booksortr > li > .bookl > dl > dd > a:hover {
+                      color: #76ac25; }
+            .mainNav > .navmenu > .categories > .dd > #booksortr > li > .boor {
+              width: 542px;
+              height: 200px; }
+              .mainNav > .navmenu > .categories > .dd > #booksortr > li > .boor > a {
+                display: block; }
+                .mainNav > .navmenu > .categories > .dd > #booksortr > li > .boor > a > img {
+                  height: 100%;
+                  width: 100%; }
+            .mainNav > .navmenu > .categories > .dd > #booksortr > li > span {
+              width: 25px;
+              height: 25px;
+              display: block;
+              position: absolute;
+              top: 6px;
+              right: 6px;
+              background: url(../images/index_icon_new.png) no-repeat -245px -1px;
+              cursor: pointer; }
     .mainNav > .navmenu > .menu1 {
       width: 1000px;
       height: 32px;
@@ -726,7 +889,7 @@ table {
         line-height: 18px;
         width: 160px; }
         .subCont > ul > li > .subT > a {
-          text-align: center;
+          text-align: left;
           display: block;
           line-height: 18px;
           color: #666666; }

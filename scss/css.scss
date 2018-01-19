@@ -48,9 +48,105 @@ body {
                         @extend %float-left;
                         padding: 0 10px;
                         color: $color5;
+                        position: relative;
                         line-height: 33px; //@include margin(6px 0 0 0);
                         >a {
                             color: $color3;
+                        }
+                        &:hover>a {
+                            color: $co13;
+                        }
+                        &.frMy {
+                            width: 60px;
+                            position: relative;
+                            >b {
+                                position: absolute;
+                                right: 12px;
+                                top: 15px;
+                                background: url(../images/header.png) no-repeat -86px -130px;
+                                width: 8px;
+                                height: 4px;
+                                transition: transform .2s ease-in 0s;
+                                -webkit-transition: -webkit-transform .2s ease-in 0s;
+                                overflow: hidden;
+                            }
+                            &:hover b {
+                                transform: rotate(180deg);
+                                -webkit-transform: rotate(180deg);
+                            }
+                            &:hover>ul {
+                                box-shadow: 0 0 5px #dadada;
+                            }
+                            >ul {
+                                position: absolute;
+                                top: 1px;
+                                padding-top: 33px;
+                                width: 80px;
+                                left: 0px; //background: red;
+                                text-align: center;
+                                >li {
+                                    line-height: 22px;
+                                    background: $color10;
+                                }
+                            }
+                        }
+                        &.phones {
+                            padding: 0 10px 0 28px;
+                            background: green;
+                            >b {
+                                background: url(../images/header.png) no-repeat -73px -122px;
+                                width: 10px;
+                                left: 10px;
+                                transition: all 0.2s ease 0s;
+                                display: block;
+                                height: 16px;
+                                position: absolute;
+                                top: 9px;
+                            }
+                            &:hover b{
+                                background: url(../images/header.png) no-repeat -73px -138px;
+                            }
+                            >ul{
+                                position: absolute;
+                                top: 33px;
+                                width: 230px;
+                                left: -50px;
+                                height: 153px;
+                                padding: 15px 0 0 0;
+                                background: yellowgreen;
+                                border: 1px solid #dadada;
+                                background-color: white;
+                                z-index: 1000;
+                                >.phones_one{
+                                    width: 215px;
+                                    height: 74px;
+                                    margin-bottom: 10px;
+                                    margin-left: 15px;
+                                    position: relative;
+                                    background: blue;
+                                    >span{
+                                        width: 73px;
+                                        height: 74px;
+                                        overflow: hidden;
+                                        background: url(../images/header.png) no-repeat 0 -93px;
+                                        display: block;
+                                    }
+                                    >i{
+                                        position: absolute;
+                                        width: 50px;
+                                        height: 29px;
+                                        left: 80px;
+                                        top: 5px;
+                                        background: url(../images/header.png) no-repeat -73px -93px;
+                                        display: block;
+                                    }
+                                    >p{
+                                        position: absolute;
+                                        left: 95px;
+                                        top: 34px;
+                                    }
+                                }
+                            }
                         }
                         &.tShow {
                             height: 33px;
@@ -246,13 +342,17 @@ body {
                         margin: 0;
                         z-index: 998;
                         padding: 0;
-                        width: 200px;
+                        width: 760px;
                         height: 480px;
                         position: absolute;
-                        background-color: $co13;
+                        @extend %legacy-pie-clearfix;
                         >#booksort {
                             padding-top: 8px;
                             padding-left: 12px;
+                            @extend %float-left;
+                            width: 188px;
+                            height: 472px;
+                            background-color: $co13;
                             >.item {
                                 height: 58px;
                                 >.i-master {
@@ -315,6 +415,122 @@ body {
                                             }
                                         }
                                     }
+                                    &:hover {
+                                        background: $color10;
+                                        >h3 {
+                                            >a {
+                                                color: $co13;
+                                            }
+                                            >p {
+                                                &.fresh {
+                                                    background: url(../images/left_lm_m.png) no-repeat 0 5px;
+                                                }
+                                                &.pastry {
+                                                    background: url(../images/left_lm_m.png) no-repeat 0 -159px;
+                                                }
+                                                &.baby {
+                                                    background: url(../images/left_lm_m.png) no-repeat 0 -324px;
+                                                }
+                                                &.drinks {
+                                                    background: url(../images/left_lm_m.png) no-repeat 0 -47px;
+                                                }
+                                                &.food {
+                                                    background: url(../images/left_lm_m.png) no-repeat 0 -106px;
+                                                }
+                                                &.oil {
+                                                    background: url(../images/left_lm_m.png) no-repeat 0 -270px;
+                                                }
+                                                &.tea {
+                                                    background: url(../images/left_lm_m.png) no-repeat 0 -213px;
+                                                }
+                                                &.health {
+                                                    background: url(../images/left_lm_m.png) no-repeat 0 -378px;
+                                                }
+                                            }
+                                        }
+                                        >.subCat {
+                                            >li {
+                                                >a {
+                                                    color: $co13;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        >#booksortr {
+                            @extend %float-left;
+                            width: 560px;
+                            height: 480px;
+                            position: relative;
+                            >li {
+                                height: $height;
+                                width: $width;
+                                position: absolute;
+                                display: none;
+                                background: $color10;
+                                >.bookl {
+                                    height: 248px;
+                                    width: 542px;
+                                    padding: 8px 10px 24px;
+                                    >dl {
+                                        line-height: 26px;
+                                        @extend %legacy-pie-clearfix;
+                                        >dt {
+                                            @extend %float-left;
+                                            width: 80px;
+                                            padding-right: 10px;
+                                            font-weight: bold;
+                                            text-align: right;
+                                            height: 18px;
+                                            line-height: 18px;
+                                            margin: 4px 0px;
+                                            color: $co13;
+                                        }
+                                        >dd {
+                                            //@extend %float-left;
+                                            @extend %legacy-pie-clearfix;
+                                            overflow: hidden;
+                                            >a {
+                                                float: left;
+                                                display: block;
+                                                font-size: 12px;
+                                                height: 18px;
+                                                line-height: 18px;
+                                                margin: 4px 0px;
+                                                text-align: left;
+                                                padding: 0px 6px;
+                                                border-left: 1px solid #ccc;
+                                                color: #666;
+                                                cursor: pointer;
+                                                &:hover {
+                                                    color: $co13;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                >.boor {
+                                    width: 542px;
+                                    height: 200px;
+                                    >a {
+                                        display: block;
+                                        >img {
+                                            height: $height;
+                                            width: $width;
+                                        }
+                                    }
+                                }
+                                >span {
+                                    width: 25px;
+                                    height: 25px;
+                                    display: block;
+                                    position: absolute;
+                                    top: 6px;
+                                    right: 6px;
+                                    background: url(../images/index_icon_new.png) no-repeat -245px -1px;
+                                    cursor: pointer;
                                 }
                             }
                         }
@@ -901,7 +1117,7 @@ body {
                                 line-height: 18px;
                                 width: 160px;
                                 >a {
-                                    text-align: center;
+                                    text-align: left;
                                     display: block;
                                     line-height: 18px;
                                     color: $color0;

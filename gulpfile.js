@@ -13,9 +13,7 @@ gulp.task("html",()=>{
 gulp.task("script",()=>{
 	return gulp
 				//.src(["src/*.js","model/*.js","libs/*.js","!src/secret.js"])
-				.src(["libs/jquery.js"])
-				.pipe(concat("vendor.js"))
-				.pipe(uglify())
+				.src(["libs/*.js"])
 				.pipe(gulp.dest("dist/scripts"))
 })
 gulp.task("watch",()=>{
