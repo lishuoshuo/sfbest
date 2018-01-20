@@ -7,6 +7,9 @@
 @mixin arial($size:12px, $line-height: 1.5, $weight:normal) {
 	font: $weight #{$size}/#{$line-height}  Arial,Verdana,"宋体";
 }
+@mixin arial2($size:12px, $line-height: 22px, $weight:normal) {
+	font: $weight #{$size}/#{$line-height}  "宋体";
+}
 @mixin YaHei($size:14px, $line-height: 32px, $weight:700) {
 	font: $weight #{$size}/#{$line-height}  "Microsoft YaHei";
 }
@@ -56,5 +59,8 @@
 	font: $weight #{$size}/#{$line-height}  "Microsoft YaHei";
 }
 @mixin YaHei16($size:16px, $line-height: 22px, $weight:bold) {
+	font: $weight #{$size}/#{$line-height}  "Microsoft YaHei";
+}
+@mixin YaHei17($size:16px, $line-height: 40px, $weight:bold) {
 	font: $weight #{$size}/#{$line-height}  "Microsoft YaHei";
 }

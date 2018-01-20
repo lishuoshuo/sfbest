@@ -6,7 +6,7 @@ const sass = require("gulp-sass-china");
 
 gulp.task("html",()=>{
 	return gulp
-				.src(["*.html"])
+				.src(["*.html","html/*.html"])
 			 	.pipe(gulp.dest("dist"))
 			 	.pipe(connect.reload());//自动刷新;
 })
@@ -17,7 +17,7 @@ gulp.task("script",()=>{
 				.pipe(gulp.dest("dist/scripts"))
 })
 gulp.task("watch",()=>{
-    gulp.watch(["scss/*.scss","*.html"],["sass","html"]);
+    gulp.watch(["scss/*.scss","*.html","html/**"],["sass","html"]);
     gulp.watch(["images/*","!node_modules/**/*"],["images"]);
 	gulp.watch(["*/*.js","*/*.json","!module/**/*","!es6/*"],["script"]);
 	gulp.watch(["es6/*.js","!module/**/*"],["es6"]);

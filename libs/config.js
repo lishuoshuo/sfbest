@@ -9,7 +9,9 @@ requirejs.config({
         "navtab": "scripts/navtab",
         "supperBanner": "scripts/jquery.supperBanner",
         "timeMeter":"scripts/timemeter",
-        "countdown":"scripts/countdown"
+        "countdown":"scripts/countdown",
+        "footer":"scripts/footer",
+        "scrollT":"scripts/scrollTop"
         /*"goodslist":"scripts/goodslist",
         "shopping":"scripts/shoppingcart", */
     }

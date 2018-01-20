@@ -1,6 +1,6 @@
 require(['scripts/config.js'], function () { //加载配置文件
-    require(["jquery", "fruit" ,"recommend","searchhot","needsBuy"/* ,"tabs" */,"navtab","supperBanner","timeMeter","countdown"/* ,"pop","goodslist","shopping" */ ], 
-    function ($, fruitL ,recom,search,needs/* ,otab */,navbtn,supperBanner,times,counts/* ,supperBanner,pop,goodslist,shop */ ) {
+    require(["jquery", "fruit" ,"recommend","searchhot","needsBuy"/* ,"tabs" */,"navtab","supperBanner","timeMeter","countdown","footer","scrollT"/* ,"pop","goodslist","shopping" */ ], 
+    function ($, fruitL ,recom,search,needs/* ,otab */,navbtn,supperBanner,times,counts,foots,scrollTo/* ,supperBanner,pop,goodslist,shop */ ) {
          $(".lside").supperBanner({
             src:[
                 "http://img.zcool.cn/community/013d825a56bdbea80120121fb8fed4.jpg@1380w",
@@ -34,12 +34,19 @@ require(['scripts/config.js'], function () { //加载配置文件
         //new otab().init("#booksort>li","#booksortr li");
         //new otab().init("#booksort>li","#booksortr>li");
         $(".fr").nav();
-        $("#booksort").nav()
+        $("#booksort").nav();
         times.init($("#timeLimit"));
-        counts.init([02,59,52],["time1","time2","time3"]);
+        //counts.init([02,59,52],["time1","time2","time3"]);
         $.getJSON("http://www.sfbest.com/ajax/GetHotSun/?callback=?",function(res){
            // console.log(res.data);
             $("#share").html(res.data);
-        })
+        });
+        new foots().init($("#shopp"),$("#gives"),$("#pay"),$("#sell"),$("#seller"));
+        new scrollTo().init($("#scrollTOP"),$("#moveLeft"),$(".moveL"));
+        //列表页
+        $.post("http://www.sfbest.com/ajax/salesRank",function(res){
+            // console.log(res.data);
+             $("#salesRank").html(res);
+         });
     })
 })

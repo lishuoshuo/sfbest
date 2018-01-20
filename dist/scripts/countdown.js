@@ -52,7 +52,7 @@ define(["jquery"], function ($) {
             } else {
                 _this._hour = _this._minute = _this._seconds = 0;
             }
-            _this._hourHtmlObj.innerHTML = _this._hour;
+            _this._hourHtmlObj.innerHTML= _this._hour;
             _this._minuteHtmlObj.innerHTML = _this._minute;
             _this._secondsHtmlObj.innerHTML = _this._seconds;
         }
