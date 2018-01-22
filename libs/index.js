@@ -1,6 +1,6 @@
 require(['scripts/config.js'], function () { //加载配置文件
-    require(["jquery", "fruit" ,"recommend","searchhot","needsBuy"/* ,"tabs" */,"navtab","supperBanner","timeMeter","countdown","footer","scrollT"/* ,"pop","goodslist","shopping" */ ], 
-    function ($, fruitL ,recom,search,needs/* ,otab */,navbtn,supperBanner,times,counts,foots,scrollTo/* ,supperBanner,pop,goodslist,shop */ ) {
+    require(["jquery", "fruit" ,"recommend","searchhot","needsBuy"/* ,"tabs" */,"navtab","supperBanner","timeMeter","countdown","footer","scrollT","list"/* ,"pop","goodslist","shopping" */ ], 
+    function ($, fruitL ,recom,search,needs/* ,otab */,navbtn,supperBanner,times,counts,foots,scrollTo,lists/* ,supperBanner,pop,goodslist,shop */ ) {
          $(".lside").supperBanner({
             src:[
                 "http://img.zcool.cn/community/013d825a56bdbea80120121fb8fed4.jpg@1380w",
@@ -47,6 +47,7 @@ require(['scripts/config.js'], function () { //加载配置文件
         $.post("http://www.sfbest.com/ajax/salesRank",function(res){
             // console.log(res.data);
              $("#salesRank").html(res);
-         });
+        });
+        $("#ulList").cul();
     })
 })

@@ -11,7 +11,8 @@ requirejs.config({
         "timeMeter":"scripts/timemeter",
         "countdown":"scripts/countdown",
         "footer":"scripts/footer",
-        "scrollT":"scripts/scrollTop"
+        "scrollT":"scripts/scrollTop",
+        "list":"scripts/list"
         /*"goodslist":"scripts/goodslist",
         "shopping":"scripts/shoppingcart", */
     }
