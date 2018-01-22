@@ -7,11 +7,14 @@ requirejs.config({
         "needsBuy": "scripts/needBuy",
         //"tabs": "scripts/tab",
         "navtab": "scripts/navtab",
-        "supperBanner": "scripts/jquery.supperBanner",
+        "supperBanner": "scripts/jquery.banner",
         "timeMeter":"scripts/timemeter",
         "countdown":"scripts/countdown",
         "footer":"scripts/footer",
-        "scrollT":"scripts/scrollTop"
+        "scrollT":"scripts/scrollTop",
+        "list":"scripts/list",
+        "cutout":"scripts/cutout",
+        "listnum":"scripts/listnum"
         /*"goodslist":"scripts/goodslist",
         "shopping":"scripts/shoppingcart", */
     }
