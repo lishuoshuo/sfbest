@@ -631,6 +631,33 @@ table {
       z-index: 30;
       margin-left: 200px;
       background: yellowgreen; }
+      .slide_show > .indexW > .lside > .supperbanner_img_contants {
+        height: 480px;
+        position: relative; }
+        .slide_show > .indexW > .lside > .supperbanner_img_contants > li {
+          height: 480px;
+          position: relative; }
+      .slide_show > .indexW > .lside > .supperbanner_btn_wrap {
+        position: absolute;
+        z-index: 3;
+        width: 150px;
+        height: 28px;
+        line-height: 28px;
+        border-radius: 15px;
+        bottom: 20px;
+        left: 50%;
+        margin-left: -75px;
+        text-align: center; }
+        .slide_show > .indexW > .lside > .supperbanner_btn_wrap > span {
+          cursor: pointer;
+          width: 11px;
+          height: 11px;
+          display: inline-block;
+          margin: 8px 5px;
+          background-color: #fff;
+          border-radius: 5px; }
+          .slide_show > .indexW > .lside > .supperbanner_btn_wrap > span.on {
+            background-color: #fa9600; }
 
 .thefifthyear {
   position: relative;

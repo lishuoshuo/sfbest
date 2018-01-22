@@ -1,16 +1,14 @@
 require(['scripts/config.js'], function () { //加载配置文件
     require(["jquery", "fruit" ,"recommend","searchhot","needsBuy"/* ,"tabs" */,"navtab","supperBanner","timeMeter","countdown","footer","scrollT","list"/* ,"pop","goodslist","shopping" */ ], 
     function ($, fruitL ,recom,search,needs/* ,otab */,navbtn,supperBanner,times,counts,foots,scrollTo,lists/* ,supperBanner,pop,goodslist,shop */ ) {
-         $(".lside").supperBanner({
+         $(".lside").banner({
             src:[
-                "http://img.zcool.cn/community/013d825a56bdbea80120121fb8fed4.jpg@1380w",
-                "http://img.zcool.cn/community/017ac55a55de01a80120121f0d0e19.jpg@1380w",
-                "http://img.zcool.cn/community/01e91f5a56e35aa80120121fbbd853.jpg@1380w",
-                "http://img.zcool.cn/community/01c4165a56e341a8012113c7c68c2e.jpg@1380w"
+                "http://003.sfimg.cn/web//4dd1c456/4dd1c456e01da81600ba60e750c4f2b7.jpg",
+                "http://001.sfimg.cn/web//b54d4efb/b54d4efbf9ad4869e19d6d8fe3c8f9f2.jpg",
+                "http://004.sfimg.cn/web//50518c6a/50518c6a4ad26c71a9a688c27ca41be7.jpg",
+                "http://003.sfimg.cn/web//ff9c1917/ff9c1917cd210885b1b07d88e9fdcd69.jpg"
             ],
             autoplay:true,
-            create_btn:true,
-			movement_mode:"scroll",
 			// /autoplay:false
         });
         /*$('.login').on("click",function(){

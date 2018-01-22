@@ -7,7 +7,7 @@ requirejs.config({
         "needsBuy": "scripts/needBuy",
         //"tabs": "scripts/tab",
         "navtab": "scripts/navtab",
-        "supperBanner": "scripts/jquery.supperBanner",
+        "supperBanner": "scripts/jquery.banner",
         "timeMeter":"scripts/timemeter",
         "countdown":"scripts/countdown",
         "footer":"scripts/footer",
